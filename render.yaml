@@ -1,31 +1,29 @@
 # ==============================================================================
 # Render Blueprint Specification for CampusAI
-# Documentation: https://render.com/docs/blueprint-spec
+# Reference: https://render.com/docs/blueprint-spec
 # ==============================================================================
 services:
   - type: web
     name: campusai-app
-    runtime: python
+    env: python
     plan: free
     region: oregon
-    buildCommand: "./build.sh"
+    buildCommand: "bash build.sh"
     startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
     healthCheckPath: /health
     autoDeploy: true
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
-      - key: PORT
-        value: 10000
       - key: HOST
-        value: 0.0.0.0
+        value: "0.0.0.0"
       - key: ENVIRONMENT
-        value: production
+        value: "production"
       - key: DEBUG
-        value: false
+        value: "false"
       - key: SECRET_KEY
         generateValue: true
       - key: LLM_PROVIDER
-        value: mock
+        value: "mock"
       - key: FALLBACK_SQLITE_URL
-        value: sqlite:///campusai.db
+        value: "sqlite:///campusai.db"
