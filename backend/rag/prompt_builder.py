@@ -38,10 +38,13 @@ def build_rag_prompt(
             f"</evidence>\n\n"
         )
 
+    default_evidence = "<evidence>No matching official documents found.</evidence>\n"
+    active_evidence = evidence_text if evidence_text else default_evidence
+
     prompt = (
         f"{history_text}"
         f"Verified Official University Evidence:\n"
-        f"{evidence_text if evidence_text else '<evidence>No matching official documents found.</evidence>\n'}\n"
+        f"{active_evidence}\n"
         f"Student Inquiry: {query}\n\n"
         f"Provide a clear, helpful, academically grounded answer:"
     )
