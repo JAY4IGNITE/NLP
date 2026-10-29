@@ -28,8 +28,8 @@ class Settings(BaseSettings):
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = os.getenv("DEBUG", "false").lower() == "true"
     ENVIRONMENT: str = os.getenv("ENVIRONMENT", "development")
-    HOST: str = os.getenv("BACKEND_HOST", "127.0.0.1")
-    PORT: int = int(os.getenv("BACKEND_PORT", "8000"))
+    HOST: str = os.getenv("HOST", os.getenv("BACKEND_HOST", "0.0.0.0"))
+    PORT: int = int(os.getenv("PORT", os.getenv("BACKEND_PORT", "8000")))
     API_HOST: str = HOST
     API_PORT: int = PORT
     API_V1_STR: str = "/api/v1"

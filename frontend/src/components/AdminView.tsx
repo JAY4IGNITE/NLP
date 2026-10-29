@@ -27,8 +27,7 @@ export const AdminView: React.FC<AdminViewProps> = ({ user, onOpenLogin }) => {
 
   useEffect(() => {
     let cancelled = false;
-    fetch('http://localhost:8000/api/v1/admin/documents')
-      .then(response => { if (!response.ok) throw new Error('Document registry unavailable'); return response.json(); })
+    api.getAdminDocuments()
       .then(records => { if (!cancelled) setDocuments(records.map((record: { doc_id: string; department_code: string; file_name: string; total_pages: number; status: string }) => ({
         id: record.doc_id, name: record.department_code, file: record.file_name, pages: record.total_pages, status: record.status,
       }))); })

@@ -15,10 +15,14 @@ Base = declarative_base()
 def get_engine():
     """Create database engine with fallback mechanism."""
     # Try PostgreSQL first if configured
-    if settings.DATABASE_URL and not settings.DATABASE_URL.startswith("sqlite"):
+    db_url = settings.DATABASE_URL
+    if db_url and db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
+
+    if db_url and not db_url.startswith("sqlite"):
         try:
             pg_engine = create_engine(
-                settings.DATABASE_URL,
+                db_url,
                 pool_pre_ping=True,
                 pool_size=10,
                 max_overflow=20

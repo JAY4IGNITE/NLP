@@ -15,7 +15,8 @@ from typing import Annotated, Dict, Any, List, Optional
 
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, StringConstraints
 
 from backend.config import settings
@@ -43,6 +44,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.on_event("startup")
+def on_startup():
+    try:
+        from backend.database.connection import create_all_tables
+        create_all_tables()
+        logger.info("Database tables verified.")
+    except Exception as e:
+        logger.warning("Could not auto-create database tables on startup: %s", e)
 
 
 @app.middleware("http")
@@ -151,6 +162,9 @@ def submit_feedback(feedback: FeedbackRequest):
 
 @app.get("/", tags=["Root"])
 def root():
+    frontend_index = settings.BASE_DIR / "frontend" / "dist" / "index.html"
+    if frontend_index.is_file():
+        return FileResponse(str(frontend_index))
     return {
         "message": f"Welcome to {settings.APP_TITLE}",
         "institution": settings.INSTITUTION_NAME,
@@ -166,3 +180,21 @@ app.include_router(academic.router, prefix=settings.API_V1_STR)
 app.include_router(chat.router, prefix=settings.API_V1_STR)
 app.include_router(sources.router, prefix=settings.API_V1_STR)
 app.include_router(admin.router, prefix=settings.API_V1_STR)
+
+# Mount Static Frontend Assets & SPA Fallback if frontend/dist exists
+frontend_dist = settings.BASE_DIR / "frontend" / "dist"
+if frontend_dist.is_dir() and (frontend_dist / "index.html").exists():
+    assets_dir = frontend_dist / "assets"
+    if assets_dir.is_dir():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="frontend-assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_spa_frontend(full_path: str):
+        # Do not intercept API, docs, or OpenAPI schemas
+        if full_path.startswith("api/") or full_path.startswith("docs") or full_path.startswith("openapi.json"):
+            raise HTTPException(status_code=404, detail="API route not found")
+        target_file = frontend_dist / full_path
+        if full_path and target_file.is_file():
+            return FileResponse(str(target_file))
+        return FileResponse(str(frontend_dist / "index.html"))
+

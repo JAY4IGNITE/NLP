@@ -3,7 +3,18 @@ import type {
   SemesterData
 } from './types';
 
-const API_BASE = 'http://localhost:8000/api/v1';
+const getApiBase = () => {
+  const envUrl = import.meta.env.VITE_API_BASE_URL;
+  if (envUrl) {
+    return `${envUrl.replace(/\/$/, '')}/api/v1`;
+  }
+  if (import.meta.env.DEV) {
+    return 'http://localhost:8000/api/v1';
+  }
+  return '/api/v1';
+};
+
+export const API_BASE = getApiBase();
 
 export const api = {
   // Academic
@@ -94,6 +105,12 @@ export const api = {
   async getEvaluations(): Promise<any> {
     const res = await fetch(`${API_BASE}/admin/evaluations`);
     if (!res.ok) throw new Error('Failed to fetch evaluations');
+    return res.json();
+  },
+
+  async getAdminDocuments(): Promise<any> {
+    const res = await fetch(`${API_BASE}/admin/documents`);
+    if (!res.ok) throw new Error('Document registry unavailable');
     return res.json();
   },
 
