@@ -7,14 +7,13 @@ services:
     name: campusai-app
     env: python
     plan: free
-    region: oregon
-    buildCommand: "bash build.sh"
+    buildCommand: "pip install --no-cache-dir -r requirements.txt"
     startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
     healthCheckPath: /health
     autoDeploy: true
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.9
+        value: "3.11.9"
       - key: HOST
         value: "0.0.0.0"
       - key: ENVIRONMENT
