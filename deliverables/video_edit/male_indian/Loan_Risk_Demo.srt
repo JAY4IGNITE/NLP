@@ -1,0 +1,113 @@
+1
+00:00:00,350 --> 00:00:04,642
+Hi, let's take a quick look at this loan risk dashboard.
+
+2
+00:00:04,802 --> 00:00:12,074
+We can enter a person's details, check their risk score,
+and understand how the model arrived at the result.
+
+3
+00:00:12,950 --> 00:00:17,236
+First, this page gives us an overview of the applicants.
+
+4
+00:00:17,396 --> 00:00:23,814
+We can see repayment results and compare groups by income,
+education, and other details.
+
+5
+00:00:24,683 --> 00:00:28,843
+Now, let's enter the yearly income and the loan amount.
+
+6
+00:00:29,003 --> 00:00:34,826
+We can also add other loan details and the goods price, if
+that information is available.
+
+7
+00:00:35,683 --> 00:00:42,974
+Next, we fill in the age, work experience, family details,
+and housing information.
+
+8
+00:00:43,134 --> 00:00:47,762
+Once these basic details are ready, we can move to the
+risk check.
+
+9
+00:00:48,617 --> 00:00:52,894
+If we have external credit scores, we can enter them here.
+
+10
+00:00:53,054 --> 00:00:57,772
+Otherwise, we can leave these fields blank and click
+Assess risk.
+
+11
+00:00:58,650 --> 00:01:03,527
+Here, the estimated chance of default is seven point six
+percent.
+
+12
+00:01:03,687 --> 00:01:08,942
+The risk score is eight out of one hundred, which falls in
+the low risk group.
+
+13
+00:01:09,817 --> 00:01:14,810
+This is only an estimate. It does not guarantee what will
+happen.
+
+14
+00:01:14,970 --> 00:01:19,525
+A person still needs to review the result before making a
+lending decision.
+
+15
+00:01:20,383 --> 00:01:23,961
+Now, let's see what is behind the prediction.
+
+16
+00:01:24,121 --> 00:01:30,198
+This page shows the main factors used by the model, along
+with a breakdown for this applicant.
+
+17
+00:01:31,050 --> 00:01:35,336
+Here, we compare different models using cross validation.
+
+18
+00:01:35,496 --> 00:01:41,573
+XGBoost is selected, and we can check the comparison and
+tuning details on this page.
+
+19
+00:01:42,450 --> 00:01:47,345
+Next, we check the model's test results and performance
+charts.
+
+20
+00:01:47,505 --> 00:01:52,170
+These help us see how well the model works and how its
+scores behave.
+
+21
+00:01:53,050 --> 00:01:57,664
+The methodology page explains the formulas used in the
+dashboard.
+
+22
+00:01:57,824 --> 00:02:03,247
+The feature reference tells us what each input means and
+how missing details are handled.
+
+23
+00:02:04,117 --> 00:02:08,508
+Finally, we can check the model version and training
+details.
+
+24
+00:02:08,668 --> 00:02:15,341
+So, we can go from applicant details to a risk estimate,
+and review the information behind it.

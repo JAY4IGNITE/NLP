@@ -1,0 +1,44 @@
+{
+  "https://www.adityauniversity.in/academic-calendar": {
+    "url": "https://www.adityauniversity.in/academic-calendar",
+    "title": "Aditya University Academic Calendar",
+    "category": "official_academic_calendar",
+    "content_text": "ADITYA UNIVERSITY - SURAMPALEM\nOFFICIAL ACADEMIC CALENDAR FOR B.TECH 2024-2025\nCommencement of Class Work: July 15, 2024\nFirst Mid-Term Examinations: September 16 - 21, 2024\nSecond Mid-Term Examinations: November 18 - 23, 2024\nEnd Semester Practical Examinations: December 2 - 7, 2024\nEnd Semester Theory Examinations: December 9 - 21, 2024\nCommencement of Even Semester: January 6, 2025",
+    "checksum": "86fba20a591f3485686b3781dffcbcb35c3c19e731ed8f240821c9f1a705b8fe",
+    "published_date": "2024-06-30",
+    "last_verified_at": "2026-10-21T05:24:00.594406+00:00",
+    "is_stale": false,
+    "metadata": {
+      "source_system": "Aditya Web Crawler",
+      "ingestion_method": "controlled_adapter"
+    }
+  },
+  "https://www.adityauniversity.in/examination-notifications": {
+    "url": "https://www.adityauniversity.in/examination-notifications",
+    "title": "Controller of Examinations - Notifications",
+    "category": "official_examination_notices",
+    "content_text": "ADITYA UNIVERSITY EXAMINATION CELL\nNOTIFICATION: B.Tech Semesters I, III, V, VII Regular & Supplementary Examinations.\nRegistration Deadline without late fee: November 10, 2024.\nRegistration with late fee of Rs. 500/-: November 15, 2024.\nAdmit Cards will be issued through student portal 3 days prior to examination commencement.\nFor revaluation: Submit application within 10 days of results declaration.",
+    "checksum": "e3d48640f12f79e7a61993baf7fd3c9483a7ed39a7a834f070ca6e3934f059f7",
+    "published_date": "2024-10-15",
+    "last_verified_at": "2026-10-21T05:24:00.595816+00:00",
+    "is_stale": false,
+    "metadata": {
+      "source_system": "Aditya Web Crawler",
+      "ingestion_method": "controlled_adapter"
+    }
+  },
+  "https://www.adityauniversity.in/contact-us": {
+    "url": "https://www.adityauniversity.in/contact-us",
+    "title": "Aditya University - Department Contacts & Campus Information",
+    "category": "official_general_information",
+    "content_text": "ADITYA UNIVERSITY SURAMPALEM CAMPUS\nAddress: Aditya Nagar, ADB Road, Surampalem, Kakinada District, Andhra Pradesh - 533437.\nEmail: helpdesk@adityauniversity.in, registrar@adityauniversity.in\nAdmissions Helpline: +91 99498 76662 / +91 99498 76664\nExamination Cell: examcell@adityauniversity.in",
+    "checksum": "fba6ca953b07edfa121deafac69cd45c5cd1a157d0029ea53e7a4e53f4dcc3fe",
+    "published_date": "2024-01-01",
+    "last_verified_at": "2026-10-21T05:24:00.596693+00:00",
+    "is_stale": false,
+    "metadata": {
+      "source_system": "Aditya Web Crawler",
+      "ingestion_method": "controlled_adapter"
+    }
+  }
+}

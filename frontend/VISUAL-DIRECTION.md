@@ -1,0 +1,20 @@
+# Visual direction and original assets
+
+Reference: https://developer.apple.com/design/
+
+The reference was inspected in a browser. The implementation borrows its disciplined typography, cinematic material studies, simple navigation, broad whitespace, and image-led resource hierarchy. Artwork and content are original to CampusAI. Dark ink and cool silver are paired with blue links and optical-glass edge color.
+
+Generated with the built-in image generation tool. PNG originals remain in the Codex generated-images folder; project assets are encoded as WebP without retouching.
+
+## Hero: public/visuals/curriculum-glass.webp
+
+Create one premium 3D editorial hero illustration for an academic software website. Use case: stylized-concept. Landscape aspect ratio 3:2, high resolution. A meticulously art-directed studio still life of three oversized translucent optical-glass objects: an open book made of stacked thin clear glass pages centered in the lower half, a softly rounded square calendar tile standing behind it at left with a precise minimal grid engraved in the glass (no numerals or text), and a tilted clear magnifying lens hovering at right. The open book is the hero, wide and architectural with satin-aluminum spine and delicate electric-cobalt edge refraction. Beautifully physically plausible caustics and soft long contact shadows on a continuous pale cool-silver cyclorama. Restrained palette of cool silver, ice white, steel, with cobalt blue refraction and a trace of cyan through glass edges, no purple, no rainbow. Near-orthographic product photography, broad daylight studio softbox, exquisite micro bevels and optically thick glass. Quiet negative space in the top 20 percent; composition balanced and objects fully visible, no cutting off objects. Inspired by the craft quality of high-end technology product photography, not stock illustration. Crisp focus and subtle depth. No writing, no words, no letters, no logos, no UI screenshot, no caption, no decorative confetti, no generic floating blobs. The final image should feel like a single carefully photographed sculptural installation about learning and clarity.
+
+## Courses: public/visuals/course-library.webp
+
+Premium 3D product still life for an academic course catalog. Landscape 3:2. Three slim upright archival volumes made of frosted optical glass and satin aluminum, arranged as a precise architectural collection on a seamless midnight-charcoal studio floor. A single electric-blue glass divider stands between two volumes. One volume slightly pulled forward to reveal layered translucent pages. Close composition, fully visible volumes, generous surrounding negative space. Exquisite chamfered edges, softbox reflections, precise contact shadows, sharp professional product photography. Restrained black, graphite, silver and cobalt palette. No purple, no rainbow, no text, no numbers, no symbols, no lettering, no logos, no UI. Sophisticated actual physical objects, not cartoon book icons. Crisp museum-display quality. Equal attention to deliberate spacing, realistic glass refraction and elegant proportions.
+
+## Semesters: public/visuals/semester-sequence.webp
+
+Premium 3D product still life for an academic semester planning website. Landscape 3:2. An architectural arrangement of eight separate thin square frosted-glass plates, laid flat in two perfectly orderly rows of four on a cool pale silver studio floor, seen from an elegant elevated 35-degree angle. The first plate has a single blue circular inset made of polished cobalt glass; the next seven have subtly engraved horizontal line details without any writing or numbers. The orderly eight-part sequence symbolizes eight semesters. A slender satin aluminum rail connects the composition. Elegant precise industrial design, high-end technology campaign photography, physically realistic soft shadows, optically thick clear edges, gentle blue refraction and cool white highlights. Objects fill the central 70 percent with balanced negative space. No text, no letters, no UI screenshot, no purple, no rainbow, no confetti, no people.
+

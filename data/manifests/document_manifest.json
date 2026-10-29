@@ -1,0 +1,192 @@
+{
+  "institution": "Aditya University",
+  "location": "Surampalem, Andhra Pradesh, India",
+  "total_documents": 8,
+  "total_pages": 6502,
+  "documents": [
+    {
+      "doc_id": "DOC-CE-01",
+      "file_name": "B.Tech. - Civil Engineering.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Civil Engineering.pdf",
+      "file_size_bytes": 12504034,
+      "sha256": "0de5066f2c8ff0478ba8f402ba5959dbc0d056978210411c3fc39f450796c304",
+      "page_count": 728,
+      "degree": "B.Tech.",
+      "department": "Civil Engineering",
+      "department_code": "CE",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 28-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 07-02-2026 & Academic Council meeting on 28-02-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-CSE-DS-02",
+      "file_name": "B.Tech. - Computer Science and Engineering - Data Science.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Computer Science and Engineering - Data Science.pdf",
+      "file_size_bytes": 13079947,
+      "sha256": "ad316216eee448b190b3b20eaa0d2166be4c36ca1f9b588c10495ead10dcd1c8",
+      "page_count": 833,
+      "degree": "B.Tech.",
+      "department": "Computer Science and Engineering (Data Science)",
+      "department_code": "CSE-DS",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 28-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 10-02-2026 & Academic Council meeting on 28-02-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-CSE-03",
+      "file_name": "B.Tech. - Computer Science and Engineering.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Computer Science and Engineering.pdf",
+      "file_size_bytes": 13139400,
+      "sha256": "0dbf94fab85a38b99fcc5eb907aa7dd738318bb3724d984fb4c501971f564776",
+      "page_count": 808,
+      "degree": "B.Tech.",
+      "department": "Computer Science and Engineering",
+      "department_code": "CSE",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 28-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 05-06-2026 & Academic Council meeting on 20-06-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-EEE-04",
+      "file_name": "B.Tech. - Electrical and Electronics Engineering.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Electrical and Electronics Engineering.pdf",
+      "file_size_bytes": 12630599,
+      "sha256": "01bafea6b371bd5a97ab224f6c253ee07b40dd401dbd285a8cf168e1d1b05ef9",
+      "page_count": 808,
+      "degree": "B.Tech.",
+      "department": "Electrical and Electronics Engineering",
+      "department_code": "EEE",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 24-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 05-06-2026 & Academic Council meeting on 20-06-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-ECE-05",
+      "file_name": "B.Tech. - Electronics and Communication Engineering.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Electronics and Communication Engineering.pdf",
+      "file_size_bytes": 13224481,
+      "sha256": "66c836e97cf1c99bfc9d7efc31b36891cf1c598b09852909304ce1c49f83344e",
+      "page_count": 806,
+      "degree": "B.Tech.",
+      "department": "Electronics and Communication Engineering",
+      "department_code": "ECE",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 24-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 06-06-2026 & Academic Council meeting on 20-06-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-IT-06",
+      "file_name": "B.Tech. - Information Technology.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Information Technology.pdf",
+      "file_size_bytes": 12821599,
+      "sha256": "ef89ea0c680851f663733c40e8cbd0d171890ab125e4af32fa55ba300d533cdb",
+      "page_count": 814,
+      "degree": "B.Tech.",
+      "department": "Information Technology",
+      "department_code": "IT",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 31-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 06-06-2026 & Academic Council meeting on 20-06-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-MIN-07",
+      "file_name": "B.Tech. - Mining Engineering.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Mining Engineering.pdf",
+      "file_size_bytes": 12182415,
+      "sha256": "782be478938a89b1a3523f20a6ea85167f0a1f2595fa6cc1ddd1473cd763e425",
+      "page_count": 749,
+      "degree": "B.Tech.",
+      "department": "Mining Engineering",
+      "department_code": "MIN",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 27-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 05-06-2026 & Academic Council meeting on 20-06-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    },
+    {
+      "doc_id": "DOC-PT-08",
+      "file_name": "B.Tech. - Petroleum Technology.pdf",
+      "file_path": "C:\\Users\\ramuv\\NLP_project\\data\\institutional\\curriculum\\B.Tech. - Petroleum Technology.pdf",
+      "file_size_bytes": 14023055,
+      "sha256": "6f3a7b0392e3bc180c9a8ec5f9ed5c2f117c03dc3471b8796ec587a1e1506c34",
+      "page_count": 956,
+      "degree": "B.Tech.",
+      "department": "Petroleum Technology",
+      "department_code": "PT",
+      "curriculum_version": "Version 3.0",
+      "admission_batch": "2024-25",
+      "approval_dates": [
+        "Version 1.0\u2013Approved in the BoS meeting on 28-08-2024 & Academic Council meeting on 21-09-2024",
+        "Version 2.0\u2013Approved in the BoS meeting on 17-05-2025 & Academic Council meeting on 14-06-2025",
+        "Version 3.0\u2013Approved in the BoS meeting on 06-06-2026 & Academic Council meeting on 20-06-2026"
+      ],
+      "has_extractable_text": true,
+      "text_coverage_ratio": 1.0,
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "extraction_status": "verified"
+    }
+  ]
+}

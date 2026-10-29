@@ -1,0 +1,9 @@
+doc_id,department_code,department,curriculum_version,admission_batch,page_count,file_size_mb,has_extractable_text,sha256,file_name
+DOC-CE-01,CE,Civil Engineering,Version 3.0,2024-25,728,11.92,True,0de5066f2c8ff0478ba8f402ba5959dbc0d056978210411c3fc39f450796c304,B.Tech. - Civil Engineering.pdf
+DOC-CSE-DS-02,CSE-DS,Computer Science and Engineering (Data Science),Version 3.0,2024-25,833,12.47,True,ad316216eee448b190b3b20eaa0d2166be4c36ca1f9b588c10495ead10dcd1c8,B.Tech. - Computer Science and Engineering - Data Science.pdf
+DOC-CSE-03,CSE,Computer Science and Engineering,Version 3.0,2024-25,808,12.53,True,0dbf94fab85a38b99fcc5eb907aa7dd738318bb3724d984fb4c501971f564776,B.Tech. - Computer Science and Engineering.pdf
+DOC-EEE-04,EEE,Electrical and Electronics Engineering,Version 3.0,2024-25,808,12.05,True,01bafea6b371bd5a97ab224f6c253ee07b40dd401dbd285a8cf168e1d1b05ef9,B.Tech. - Electrical and Electronics Engineering.pdf
+DOC-ECE-05,ECE,Electronics and Communication Engineering,Version 3.0,2024-25,806,12.61,True,66c836e97cf1c99bfc9d7efc31b36891cf1c598b09852909304ce1c49f83344e,B.Tech. - Electronics and Communication Engineering.pdf
+DOC-IT-06,IT,Information Technology,Version 3.0,2024-25,814,12.23,True,ef89ea0c680851f663733c40e8cbd0d171890ab125e4af32fa55ba300d533cdb,B.Tech. - Information Technology.pdf
+DOC-MIN-07,MIN,Mining Engineering,Version 3.0,2024-25,749,11.62,True,782be478938a89b1a3523f20a6ea85167f0a1f2595fa6cc1ddd1473cd763e425,B.Tech. - Mining Engineering.pdf
+DOC-PT-08,PT,Petroleum Technology,Version 3.0,2024-25,956,13.37,True,6f3a7b0392e3bc180c9a8ec5f9ed5c2f117c03dc3471b8796ec587a1e1506c34,B.Tech. - Petroleum Technology.pdf

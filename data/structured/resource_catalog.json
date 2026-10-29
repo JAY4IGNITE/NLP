@@ -1,0 +1,27 @@
+{
+  "institution": "Aditya University",
+  "location": "Surampalem, Andhra Pradesh, India",
+  "curriculum_version": "Version 3.0",
+  "admission_batch": "2024-25",
+  "total_curriculum_documents": 8,
+  "departments_covered": [
+    "CSE",
+    "CSE-DS",
+    "IT",
+    "ECE",
+    "EEE",
+    "CE",
+    "MIN",
+    "PT"
+  ],
+  "total_registered_courses": 569,
+  "total_syllabus_units": 583,
+  "total_cataloged_textbooks": 1273,
+  "retrieval_indices": {
+    "dense_vector_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "sparse_lexical_model": "BM25Okapi",
+    "fusion_algorithm": "Reciprocal Rank Fusion (RRF, k=60)",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  }
+}

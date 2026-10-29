@@ -1,0 +1,50 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Segoe UI,34,&H00F7F9FC,&H000000FF,&H000B1017,&H000B1017,0,0,0,0,100,100,0,0,1,0,0,2,180,180,10,1
+Style: Chapter,Segoe UI Semibold,22,&H00BCD560,&H000000FF,&H000B1017,&H000B1017,-1,0,0,0,100,100,0.6,0,3,8,0,7,100,100,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.35,0:00:03.49,Caption,,0,0,0,,Let me walk you through this loan default risk dashboard.
+Dialogue: 1,0:00:03.65,0:00:08.86,Caption,,0,0,0,,It brings applicant assessment, predictions, and model\Nexplanations together in one place.
+Dialogue: 1,0:00:09.72,0:00:13.69,Caption,,0,0,0,,We start with the analytics dashboard for a quick view of\Nthe applicant pool.
+Dialogue: 1,0:00:13.85,0:00:18.78,Caption,,0,0,0,,The charts show repayment outcomes and how applicants are\Ndistributed across different groups.
+Dialogue: 1,0:00:19.65,0:00:23.81,Caption,,0,0,0,,To assess an applicant, we enter their annual income and\Nloan amount.
+Dialogue: 1,0:00:23.97,0:00:28.85,Caption,,0,0,0,,The form also includes optional details, like the loan\Nannuity and goods price.
+Dialogue: 1,0:00:29.72,0:00:35.97,Caption,,0,0,0,,Next, we complete the applicant profile, including age,\Nemployment, family details, and housing.
+Dialogue: 1,0:00:36.13,0:00:39.78,Caption,,0,0,0,,I've shortened the data entry here so we can focus on the\Nworkflow.
+Dialogue: 1,0:00:40.65,0:00:44.85,Caption,,0,0,0,,External credit scores can be added when available, or\Nleft blank.
+Dialogue: 1,0:00:45.01,0:00:49.47,Caption,,0,0,0,,Once the details are ready, we select Assess risk to\Ngenerate the estimate.
+Dialogue: 1,0:00:50.35,0:00:55.37,Caption,,0,0,0,,For this example, the estimated default probability is\Nseven point six percent.
+Dialogue: 1,0:00:55.53,0:01:00.13,Caption,,0,0,0,,The dashboard shows a risk score of eight out of one\Nhundred, in the low risk band.
+Dialogue: 1,0:01:00.98,0:01:06.02,Caption,,0,0,0,,This is an analytical estimate, not a guaranteed outcome\Nor an automatic lending decision.
+Dialogue: 1,0:01:06.18,0:01:08.57,Caption,,0,0,0,,The result still needs human review.
+Dialogue: 1,0:01:09.42,0:01:14.10,Caption,,0,0,0,,The explainability page shows which features are\Nassociated with the model's predictions.
+Dialogue: 1,0:01:14.26,0:01:19.35,Caption,,0,0,0,,It also includes an applicant level breakdown to help us\Nunderstand this particular result.
+Dialogue: 1,0:01:20.22,0:01:24.05,Caption,,0,0,0,,Model Selection compares the candidates using cross\Nvalidation.
+Dialogue: 1,0:01:24.21,0:01:30.30,Caption,,0,0,0,,Here, XGBoost is selected, with the comparison results and\Ntuning details available for review.
+Dialogue: 1,0:01:31.18,0:01:36.38,Caption,,0,0,0,,The performance page brings together test metrics,\Nthreshold analysis, and calibration.
+Dialogue: 1,0:01:36.54,0:01:40.81,Caption,,0,0,0,,These views help us examine how the model behaves beyond a\Nsingle prediction.
+Dialogue: 1,0:01:41.68,0:01:46.58,Caption,,0,0,0,,For more detail, the methodology pages explain the\Nformulas behind the scores.
+Dialogue: 1,0:01:46.74,0:01:52.07,Caption,,0,0,0,,The feature reference documents the inputs, derived\Nfeatures, and how missing values are handled.
+Dialogue: 1,0:01:52.92,0:01:57.59,Caption,,0,0,0,,Finally, Model Information records the model version and\Ntraining details.
+Dialogue: 1,0:01:57.75,0:02:02.88,Caption,,0,0,0,,Together, these pages make the assessment easier to\Ninspect, explain, and review.
+Dialogue: 0,0:00:02.00,0:00:09.37,Chapter,,0,0,0,,01  /  OVERVIEW
+Dialogue: 0,0:00:09.37,0:00:19.30,Chapter,,0,0,0,,02  /  PORTFOLIO ANALYTICS
+Dialogue: 0,0:00:19.30,0:00:29.37,Chapter,,0,0,0,,03  /  FINANCIAL DETAILS
+Dialogue: 0,0:00:29.37,0:00:40.30,Chapter,,0,0,0,,04  /  APPLICANT PROFILE
+Dialogue: 0,0:00:40.30,0:00:50.00,Chapter,,0,0,0,,05  /  RUN THE ASSESSMENT
+Dialogue: 0,0:00:50.00,0:01:00.63,Chapter,,0,0,0,,06  /  PREDICTION RESULT
+Dialogue: 0,0:01:00.63,0:01:09.07,Chapter,,0,0,0,,07  /  INTERPRET THE RESULT
+Dialogue: 0,0:01:09.07,0:01:19.87,Chapter,,0,0,0,,08  /  EXPLAIN THE PREDICTION
+Dialogue: 0,0:01:19.87,0:01:30.83,Chapter,,0,0,0,,09  /  COMPARE MODELS
+Dialogue: 0,0:01:30.83,0:01:41.33,Chapter,,0,0,0,,10  /  CHECK PERFORMANCE
+Dialogue: 0,0:01:41.33,0:01:52.57,Chapter,,0,0,0,,11  /  METHODOLOGY AND REFERENCE
+Dialogue: 0,0:01:52.57,0:02:03.40,Chapter,,0,0,0,,12  /  MODEL INFORMATION

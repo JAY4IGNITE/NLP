@@ -1,0 +1,39 @@
+LOAN DEFAULT RISK — VOICEOVER
+
+Voice: Microsoft Zira Desktop (locally generated synthetic speech).
+
+00:00:00,000 — Overview
+Let me walk you through this loan default risk dashboard. It brings applicant assessment, predictions, and model explanations together in one place.
+
+00:00:09,367 — Portfolio analytics
+We start with the analytics dashboard for a quick view of the applicant pool. The charts show repayment outcomes and how applicants are distributed across different groups.
+
+00:00:19,300 — Financial details
+To assess an applicant, we enter their annual income and loan amount. The form also includes optional details, like the loan annuity and goods price.
+
+00:00:29,367 — Applicant profile
+Next, we complete the applicant profile, including age, employment, family details, and housing. I've shortened the data entry here so we can focus on the workflow.
+
+00:00:40,300 — Run the assessment
+External credit scores can be added when available, or left blank. Once the details are ready, we select Assess risk to generate the estimate.
+
+00:00:50,000 — Prediction result
+For this example, the estimated default probability is seven point six percent. The dashboard shows a risk score of eight out of one hundred, in the low risk band.
+
+00:01:00,633 — Interpret the result
+This is an analytical estimate, not a guaranteed outcome or an automatic lending decision. The result still needs human review.
+
+00:01:09,067 — Explain the prediction
+The explainability page shows which features are associated with the model's predictions. It also includes an applicant level breakdown to help us understand this particular result.
+
+00:01:19,867 — Compare models
+Model Selection compares the candidates using cross validation. Here, XGBoost is selected, with the comparison results and tuning details available for review.
+
+00:01:30,833 — Check performance
+The performance page brings together test metrics, threshold analysis, and calibration. These views help us examine how the model behaves beyond a single prediction.
+
+00:01:41,333 — Methodology and reference
+For more detail, the methodology pages explain the formulas behind the scores. The feature reference documents the inputs, derived features, and how missing values are handled.
+
+00:01:52,567 — Model information
+Finally, Model Information records the model version and training details. Together, these pages make the assessment easier to inspect, explain, and review.

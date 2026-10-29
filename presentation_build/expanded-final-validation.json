@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "e102f3e63d493909b329f7512be80f2978372e060e1d959b93722d8266e344b4",
+  "byteCount": 652287,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 21,
+    "relationship_part_count": 63,
+    "slide_count": 21,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 258,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Calibri",
+        "Times New Roman"
+      ],
+      "observed_font_use_counts": {
+        "Calibri": 38,
+        "Times New Roman": 220
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 21,
+    "slide_size_in": [
+      13.3351,
+      7.5
+    ],
+    "warning_count": 2,
+    "warnings": [
+      {
+        "available_bottom_in": 6.7292,
+        "columns": 3,
+        "declared_bottom_in": 6.3333,
+        "estimated_native_bottom_in": 7.3642,
+        "footer_object_ids": [
+          "147"
+        ],
+        "kind": "native_table_overflow",
+        "overflow_in": 0.635,
+        "rows": 7,
+        "slide": 14,
+        "table_id": "146"
+      },
+      {
+        "available_bottom_in": 6.7292,
+        "columns": 3,
+        "declared_bottom_in": 5.8854,
+        "estimated_native_bottom_in": 6.9299,
+        "footer_object_ids": [
+          "148"
+        ],
+        "kind": "native_table_overflow",
+        "overflow_in": 0.2007,
+        "rows": 6,
+        "slide": 19,
+        "table_id": "147"
+      }
+    ],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 258,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Calibri",
+        "Times New Roman"
+      ],
+      "observed_font_use_counts": {
+        "Calibri": 38,
+        "Times New Roman": 220
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "Times New Roman",
+      "Calibri"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "03cca6eefa00990518c4e5c42b3ccbec2622260262ece694ce1273eb7bedeba7",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 258,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Calibri",
+      "Times New Roman"
+    ],
+    "observed_font_use_counts": {
+      "Calibri": 38,
+      "Times New Roman": 220
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 21,
+    "sha256": "e102f3e63d493909b329f7512be80f2978372e060e1d959b93722d8266e344b4",
+    "runtimeNodeModules": "C:\\Users\\ramuv\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "nodeExecutable": "C:\\Users\\ramuv\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 3,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [
+      {
+        "reason": "no_unambiguous_bottom_total",
+        "slide": 14,
+        "table": 1
+      },
+      {
+        "reason": "no_unambiguous_bottom_total",
+        "slide": 19,
+        "table": 1
+      },
+      {
+        "reason": "no_unambiguous_bottom_total",
+        "slide": 20,
+        "table": 1
+      }
+    ],
+    "slide_count": 21,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "e102f3e63d493909b329f7512be80f2978372e060e1d959b93722d8266e344b4",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 21,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12193588,6858000",
+    "--validate-bullet-geometry",
+    "--validate-heading-fit",
+    "--require-native-table-slide",
+    "14",
+    "--require-native-table-slide",
+    "19",
+    "--require-native-table-slide",
+    "20",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "21",
+    "--approved-font-family",
+    "Times New Roman",
+    "--approved-font-family",
+    "Calibri"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": null,
+    "sourceChartOwnersExplicitlyDeclared": false,
+    "validatorRan": false,
+    "passed": true
+  }
+}

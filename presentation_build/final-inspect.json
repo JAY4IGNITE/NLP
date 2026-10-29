@@ -1,0 +1,942 @@
+[
+  {
+    "id": "sl/y90nupkv",
+    "index": 0,
+    "elements": [
+      {
+        "text": "CampusAI: Intelligent Multi-Department\nAcademic Helpdesk",
+        "position": {
+          "left": 64,
+          "top": 260,
+          "width": 1152,
+          "height": 130
+        },
+        "style": {
+          "fontSize": 40,
+          "typeface": "Calibri",
+          "color": "#21409A",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Team Members:\nV. Jaya Sai Krishna  (24B11CS514)\nY. Pavanputra  (24B11CS504)\nK. Krishna Vardhan  (24B11CS237)\nK. Mohan Vamsi Reddy  (24B11CS197)",
+        "position": {
+          "left": 160,
+          "top": 440,
+          "width": 960,
+          "height": 210
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#0070C0",
+          "bold": true,
+          "alignment": "center"
+        }
+      }
+    ],
+    "notes": {
+      "text": "CampusAI project presentation. Project name and scope: backend/config.py and README.md. Team names and IDs retained from the supplied CampusNLP_updated.pptx."
+    }
+  },
+  {
+    "id": "sl/hwbqtkby",
+    "index": 1,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "CONTENTS",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 59.34
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#006666",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Introduction\nProblem Definition\nProposed Solution\nProposed Workflow\nData Used\nModules\nText Preprocessing\nIntent Classification\nSemantic Retrieval & Grounding\nNLP / ML Algorithm\nOutput / Result\nConclusion and Future Scope",
+        "position": {
+          "left": 66.33,
+          "top": 103.97,
+          "width": 1152,
+          "height": 552
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "The presentation follows the supplied template section order. Modules covers text preprocessing, intent classification, and semantic retrieval and grounding."
+    }
+  },
+  {
+    "id": "sl/ofy9wn61",
+    "index": 2,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Introduction",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Project overview: CampusAI is an academic helpdesk for Aditya University. It interprets student questions and retrieves curriculum evidence with document and page references.\nApplication domain: Natural Language Processing and Information Retrieval for B.Tech Curriculum 2024, Version 3.0, across eight engineering departments.\nStudent needs: Students can ask about course codes, credits, semester subjects, syllabus units, prerequisites, and academic regulations.\nProject objective: Combine intent classification, exact database lookup, and hybrid document retrieval to make academic answers easier to find and verify.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: backend/config.py, backend/rag/generator.py, data/structured/resource_catalog.json. Scope: B.Tech Curriculum 2024 Version 3.0."
+    }
+  },
+  {
+    "id": "sl/jyx0ra1s",
+    "index": 3,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Problem Definition",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Existing problem: Academic information spans eight curriculum PDFs containing 6,502 pages. Students must identify the correct department, semester, and source page.\nSearch difficulties: Abbreviations, paraphrases, and Telugu-English queries can obscure intent. Similar course names also require department context.\nRisk of incorrect answers: Wrong credits, prerequisites, or semester details can mislead academic planning. A fluent answer alone does not establish accuracy.\nAffected users: Students seeking academic guidance and staff who repeatedly answer curriculum questions.\nRequired improvement: Route factual questions to structured records and support descriptive answers with traceable evidence, clarification, or abstention.",
+        "position": {
+          "left": 62.67,
+          "top": 148.84,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: data/manifests/source_quality_report.json, backend/nlp/entity_extractor.py, backend/nlp/coreference.py. Corpus counts are manifest values."
+    }
+  },
+  {
+    "id": "sl/i107q5of",
+    "index": 4,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Proposed Solution",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Query understanding: Identify language, normalize academic terms, predict one of 30 intents, and extract course, department, semester, and unit entities.\nExact academic facts: Use SQL retrieval for structured details such as course codes, credits, and semester offerings.\nSyllabus and topic search: Combine BM25 keyword retrieval with dense semantic search, fuse rankings with RRF, and rerank candidate passages.\nEvidence-based responses: Generate answers from retrieved content, attach document and page references, and request clarification when the query is ambiguous.\nStudent application: A React and TypeScript interface connects to FastAPI for chat, course exploration, semester views, comparisons, and source viewing.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: backend/nlp/intent_classifier.py, scripts/train_intent_model.py, backend/rag/retriever.py, backend/rag/generator.py, frontend/src. Capabilities describe implemented components, not guarantees of answer correctness."
+    }
+  },
+  {
+    "id": "sl/x8f69ofe",
+    "index": 5,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Proposed Workflow (System Architecture)",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 53.33,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "1",
+        "position": {
+          "left": 66.33,
+          "top": 155.38,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Query Understanding",
+        "position": {
+          "left": 140.87,
+          "top": 155.38,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Detect language, normalize academic terms, extract entities, and resolve context from earlier questions.",
+        "position": {
+          "left": 477.69,
+          "top": 155.38,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "2",
+        "position": {
+          "left": 66.33,
+          "top": 246.72,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Intent Classification",
+        "position": {
+          "left": 140.87,
+          "top": 246.72,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Word and character TF-IDF features feed a soft-voting ensemble that predicts one of 30 academic and conversational intents.",
+        "position": {
+          "left": 477.69,
+          "top": 246.72,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "3",
+        "position": {
+          "left": 66.33,
+          "top": 338.06,
+          "width": 68.24,
+          "height": 125.98
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "SQL and Hybrid Retrieval",
+        "position": {
+          "left": 140.87,
+          "top": 338.06,
+          "width": 314.96,
+          "height": 125.98
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Structured facts: Query academic database records.\nDocument evidence: Search BM25 and dense indices, combine results with Reciprocal Rank Fusion, and retain source metadata.",
+        "position": {
+          "left": 477.69,
+          "top": 338.06,
+          "width": 740.16,
+          "height": 125.98
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "4",
+        "position": {
+          "left": 66.33,
+          "top": 475.59,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Evidence Ranking and Checks",
+        "position": {
+          "left": 140.87,
+          "top": 475.59,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Cross-encoder reranking prioritizes relevant passages. Citation checks and confidence rules support evidence selection.",
+        "position": {
+          "left": 477.69,
+          "top": 475.59,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "5",
+        "position": {
+          "left": 66.33,
+          "top": 566.93,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Answer and Source Display",
+        "position": {
+          "left": 140.87,
+          "top": 566.93,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Return an answer with document and page references, ask for clarification, or report that sufficient evidence is unavailable.",
+        "position": {
+          "left": 477.69,
+          "top": 566.93,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: backend/nlp/preprocessing.py, backend/nlp/normalizer.py, backend/nlp/entity_extractor.py, backend/rag/retriever.py, backend/rag/reranker.py, backend/rag/generator.py, backend/rag/citation_verifier.py. Reranking and LLM behavior depend on runtime configuration."
+    }
+  },
+  {
+    "id": "sl/gnmp4jqx",
+    "index": 6,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Data Used",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Official source corpus: Eight Aditya University B.Tech Curriculum 2024 PDFs, Version 3.0, covering 6,502 pages.\nDepartment coverage: CSE, CSE-DS, IT, ECE, EEE, Civil Engineering, Mining Engineering, and Petroleum Technology.\nStructured academic catalog: 569 registered courses, 583 syllabus units, and 1,273 textbook references.\nIntent dataset: 1,201 labeled queries across 30 classes. Fields include query, intent, domain, language, course, department, semester, and unit.\nTraining and evaluation: A stratified 80/20 split gives 960 training and 241 test queries. Separate stratified five-fold cross-validation estimates model stability.\nData formats: PDF source documents, a CSV query dataset, JSON metadata and indices, and a relational academic database.",
+        "position": {
+          "left": 63.99,
+          "top": 158.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: data/manifests/source_quality_report.json (8 PDFs, 6,502 pages), data/structured/resource_catalog.json (catalog counts), data/aditya_university_queries.csv (1,201 rows, 30 intents), scripts/train_intent_model.py (stratified 20% test split, random seed 42), reports/classification_report.txt (241 test samples). The remaining 960 queries form the training split. Cross-validation runs separately over the full dataset. Counts replace the older synthetic CampusFAQ-50K figures in the template."
+    }
+  },
+  {
+    "id": "sl/fu1gfa1s",
+    "index": 7,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Modules",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Text Preprocessing and Query Understanding\nNormalize case, punctuation, and whitespace while preserving course codes, academic acronyms, and Telugu text. Extract entities and handle follow-up or multi-intent questions.\nIntent Classification\nCombine word and character TF-IDF features with calibrated Linear SVM, Logistic Regression, and Complement Naive Bayes. Confidence and alternative intents support query routing.\nRetrieval, Grounding, and Application\nRetrieve exact facts through SQL and descriptive evidence through hybrid search. The RAG layer adds citations, while the web app provides chat, course exploration, comparisons, and PDF source viewing.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: backend/nlp/preprocessing.py, scripts/train_intent_model.py, backend/nlp/intent_classifier.py, backend/rag/retriever.py, backend/rag/generator.py, frontend/src. Stopword removal defaults to disabled. Lemmatization is conditional on available NLTK resources."
+    }
+  },
+  {
+    "id": "sl/udsvah03",
+    "index": 8,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Core NLP & ML Algorithms",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Intent Classification: TF-IDF and Soft Voting\nWord n-grams (1–3) and character n-grams (2–5) capture phrases and spelling patterns. Calibrated Linear SVM, Logistic Regression, and Complement Naive Bayes combine probabilities with weights of 2:2:1.\nSemantic Retrieval: BM25, MiniLM, and RRF\nBM25 matches academic keywords. all-MiniLM-L6-v2 produces 384-dimensional embeddings for semantic matching. Reciprocal Rank Fusion combines both rankings, followed by MiniLM cross-encoder reranking.\nGrounding and Response Control\nSQL provides structured academic facts. Retrieved passages supply answer evidence and page references. Confidence checks, clarification, and abstention reduce unsupported answers but do not guarantee correctness.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: scripts/train_intent_model.py (feature ranges, ensemble members and 2:2:1 voting weights), data/structured/resource_catalog.json (384-dimensional MiniLM and retrieval components), backend/rag/retriever.py, backend/rag/citation_verifier.py. The cited ensemble is the latest trained model architecture."
+    }
+  },
+  {
+    "id": "sl/m90b6t0r",
+    "index": 9,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Output / Result",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Student-Facing Output\nThe web app supports academic chat, course exploration, semester browsing, and cross-department comparison. Answers include source references with access to the relevant PDF page.\nIntent Classifier Results\nThe latest report records 96.27% top-1 accuracy and 99.17% top-3 accuracy on 241 test queries across 30 classes. Macro F1 is 0.9196 and weighted F1 is 0.9614.\nCross-Validation and Interpretation\nFive-fold accuracy averages 96.00% with a standard deviation of 1.17 percentage points. These are classifier results on the project dataset, not a measure of end-to-end answer correctness.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: reports/model_metrics.json, timestamp 2026-10-22 08:09:45 UTC, and reports/classification_report.txt. Dataset: 1,201 queries, 30 intents. Test: 241 queries. Top-1 0.9627, top-3 0.9917, macro F1 0.9196, weighted F1 0.9614, 5-fold CV mean 0.9600 and standard deviation 0.0117. These are saved evaluation results, not a new run. The retrieval metrics in backend/evaluation/benchmark_runner.py are hard-coded constants, so they are excluded as measured outcomes. The older 16-query benchmark uses substring checks for facts and is insufficient to establish general answer accuracy."
+    }
+  },
+  {
+    "id": "sl/jetc3ut0",
+    "index": 10,
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "text": "Conclusion and Future Scope",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "text": "Conclusion\nCampusAI integrates NLP query understanding, structured academic lookup, and hybrid evidence retrieval for eight departments. The latest intent classifier reaches 96.27% accuracy on the held-out project test set.\nCurrent Limitations\nCoverage centres on Curriculum 2024, Version 3.0. The test set is small for some intents, and out-of-scope detection has an F1 score of 0.40. Retrieval relevance and answer correctness need independent evaluation.\nFuture Scope\nCollect student queries across languages, strengthen low-performing intents, and evaluate retrieval against human relevance labels. Expand verified curriculum coverage and connect approved live academic notices.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ],
+    "notes": {
+      "text": "Sources: reports/classification_report.txt (out_of_scope F1 0.4000 with support 3; admission_information F1 0.5714 with support 4), docs/LIMITATIONS.md, backend/evaluation/benchmark_runner.py. Future work is proposed work. The project dataset may not represent real student query distributions, and the current split is not an independently collected student evaluation."
+    }
+  }
+]

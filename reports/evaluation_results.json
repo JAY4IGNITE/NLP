@@ -1,0 +1,56 @@
+{
+  "dataset_source": "Authentic Aditya University Curriculum Dataset",
+  "accuracy": 0.9211,
+  "precision": 0.8849,
+  "recall": 0.9211,
+  "macro_f1": 0.5723,
+  "weighted_f1": 0.8988,
+  "test_samples": 152,
+  "train_samples": 605,
+  "num_classes": 25,
+  "strongest_intents": [
+    {
+      "intent": "course_outcomes",
+      "f1": 1.0
+    },
+    {
+      "intent": "course_prerequisites",
+      "f1": 1.0
+    },
+    {
+      "intent": "degree_total_credits",
+      "f1": 1.0
+    },
+    {
+      "intent": "elective_options",
+      "f1": 1.0
+    },
+    {
+      "intent": "minor_stream_courses",
+      "f1": 1.0
+    }
+  ],
+  "weakest_intents": [
+    {
+      "intent": "course_ltpc",
+      "f1": 0.0
+    },
+    {
+      "intent": "curriculum_version",
+      "f1": 0.0
+    },
+    {
+      "intent": "exam_timetable",
+      "f1": 0.0
+    },
+    {
+      "intent": "greeting",
+      "f1": 0.0
+    },
+    {
+      "intent": "lab_experiments",
+      "f1": 0.0
+    }
+  ],
+  "training_time_seconds": 2.7
+}

@@ -1,0 +1,117 @@
+1
+00:00:00,350 --> 00:00:03,494
+Let me walk you through this loan default risk dashboard.
+
+2
+00:00:03,654 --> 00:00:08,862
+It brings applicant assessment, predictions, and model
+explanations together in one place.
+
+3
+00:00:09,717 --> 00:00:13,690
+We start with the analytics dashboard for a quick view of
+the applicant pool.
+
+4
+00:00:13,850 --> 00:00:18,779
+The charts show repayment outcomes and how applicants are
+distributed across different groups.
+
+5
+00:00:19,650 --> 00:00:23,814
+To assess an applicant, we enter their annual income and
+loan amount.
+
+6
+00:00:23,974 --> 00:00:28,852
+The form also includes optional details, like the loan
+annuity and goods price.
+
+7
+00:00:29,717 --> 00:00:35,965
+Next, we complete the applicant profile, including age,
+employment, family details, and housing.
+
+8
+00:00:36,125 --> 00:00:39,784
+I've shortened the data entry here so we can focus on the
+workflow.
+
+9
+00:00:40,650 --> 00:00:44,854
+External credit scores can be added when available, or
+left blank.
+
+10
+00:00:45,014 --> 00:00:49,467
+Once the details are ready, we select Assess risk to
+generate the estimate.
+
+11
+00:00:50,350 --> 00:00:55,373
+For this example, the estimated default probability is
+seven point six percent.
+
+12
+00:00:55,533 --> 00:01:00,132
+The dashboard shows a risk score of eight out of one
+hundred, in the low risk band.
+
+13
+00:01:00,983 --> 00:01:06,022
+This is an analytical estimate, not a guaranteed outcome
+or an automatic lending decision.
+
+14
+00:01:06,182 --> 00:01:08,566
+The result still needs human review.
+
+15
+00:01:09,417 --> 00:01:14,100
+The explainability page shows which features are
+associated with the model's predictions.
+
+16
+00:01:14,260 --> 00:01:19,349
+It also includes an applicant level breakdown to help us
+understand this particular result.
+
+17
+00:01:20,217 --> 00:01:24,045
+Model Selection compares the candidates using cross
+validation.
+
+18
+00:01:24,205 --> 00:01:30,304
+Here, XGBoost is selected, with the comparison results and
+tuning details available for review.
+
+19
+00:01:31,183 --> 00:01:36,377
+The performance page brings together test metrics,
+threshold analysis, and calibration.
+
+20
+00:01:36,537 --> 00:01:40,805
+These views help us examine how the model behaves beyond a
+single prediction.
+
+21
+00:01:41,683 --> 00:01:46,577
+For more detail, the methodology pages explain the
+formulas behind the scores.
+
+22
+00:01:46,737 --> 00:01:52,065
+The feature reference documents the inputs, derived
+features, and how missing values are handled.
+
+23
+00:01:52,917 --> 00:01:57,590
+Finally, Model Information records the model version and
+training details.
+
+24
+00:01:57,750 --> 00:02:02,879
+Together, these pages make the assessment easier to
+inspect, explain, and review.

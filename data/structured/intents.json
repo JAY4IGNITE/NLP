@@ -1,0 +1,343 @@
+{
+  "institution": "Aditya University",
+  "curriculum_version": "Version 3.0",
+  "admission_batch": "2024-25",
+  "total_intents": 24,
+  "domains": [
+    "curriculum",
+    "syllabus",
+    "electives",
+    "examinations",
+    "internships",
+    "administration",
+    "campus_support"
+  ],
+  "intents": [
+    {
+      "name": "course_credits",
+      "domain": "curriculum",
+      "description": "Inquire about credit count or L-T-P breakdown of a course",
+      "examples": [
+        "How many credits does Operating Systems have?",
+        "What are the credits for Database Management Systems?",
+        "OS credits enni?",
+        "Tell me the credit structure for Machine Learning",
+        "How many credits is 241CS003?"
+      ]
+    },
+    {
+      "name": "course_code",
+      "domain": "curriculum",
+      "description": "Inquire about the official alphanumeric course code of a subject",
+      "examples": [
+        "What is the course code for Operating Systems?",
+        "Code for Machine Learning?",
+        "What is the code of Data Structures?",
+        "241CS001 belongs to which course?",
+        "Give me the course code for Computer Networks"
+      ]
+    },
+    {
+      "name": "course_category",
+      "domain": "curriculum",
+      "description": "Inquire about course category (MCC, MDC, AEC, VAC, SEC, MC)",
+      "examples": [
+        "What category is Universal Human Values?",
+        "Is Operating Systems a Major Core Course?",
+        "Which category does Environmental Science belong to?",
+        "Is Constitution of India a mandatory course?"
+      ]
+    },
+    {
+      "name": "course_prerequisites",
+      "domain": "curriculum",
+      "description": "Inquire about prerequisites required before taking a course",
+      "examples": [
+        "What are the prerequisites for Deep Learning?",
+        "Does Compiler Design have any prerequisite?",
+        "What should I study before Advanced Data Structures?",
+        "Prerequisites for Machine Learning?"
+      ]
+    },
+    {
+      "name": "course_ltpc",
+      "domain": "curriculum",
+      "description": "Inquire about lecture, tutorial, practical hours, and total contact hours",
+      "examples": [
+        "What is the LTPC distribution for Data Structures?",
+        "How many lecture and practical hours for DBMS?",
+        "L-T-P-C breakdown for Operating Systems",
+        "Total contact hours for Computer Networks?"
+      ]
+    },
+    {
+      "name": "semester_subjects",
+      "domain": "curriculum",
+      "description": "List all subjects, laboratories, and courses offered in a specific semester",
+      "examples": [
+        "What subjects are available in CSE third semester?",
+        "List all courses in IT Semester 3",
+        "What subjects are offered in ECE Semester 5?",
+        "CSE 5th semester subjects list ivvandi",
+        "Show curriculum structure for Civil Engineering semester 4"
+      ]
+    },
+    {
+      "name": "semester_total_credits",
+      "domain": "curriculum",
+      "description": "Inquire about total credits assigned to a semester",
+      "examples": [
+        "How many total credits in CSE Semester 3?",
+        "Total credits for 4th semester IT?",
+        "What is the total credit count for ECE sem 5?"
+      ]
+    },
+    {
+      "name": "degree_total_credits",
+      "domain": "curriculum",
+      "description": "Inquire about total credits required for B.Tech degree completion (160 credits)",
+      "examples": [
+        "What is the total number of degree credits for B.Tech in CSE?",
+        "How many total credits needed for graduation in Aditya University?",
+        "Total credits required for B.Tech degree completion?"
+      ]
+    },
+    {
+      "name": "curriculum_version",
+      "domain": "curriculum",
+      "description": "Inquire about active curriculum version (Version 3.0) or admission batch",
+      "examples": [
+        "Which curriculum version is active for 2024 batch?",
+        "What regulations apply to B.Tech 2024-25 admission batch?",
+        "Is Version 3.0 applicable to CSE?"
+      ]
+    },
+    {
+      "name": "course_comparison",
+      "domain": "curriculum",
+      "description": "Compare courses or semester curricula between two departments",
+      "examples": [
+        "Compare CSE and Information Technology Semester 3",
+        "What is the difference between CSE and IT curriculum in 4th sem?",
+        "Difference between ECE and EEE third semester subjects?"
+      ]
+    },
+    {
+      "name": "unit_syllabus",
+      "domain": "syllabus",
+      "description": "Explain or summarize a specific unit of a course syllabus",
+      "examples": [
+        "Explain Unit 3 of Operating Systems",
+        "What is Unit 1 of Data Structures?",
+        "Topics covered in Unit 4 of Database Management Systems?",
+        "What is taught in Machine Learning Unit 2?"
+      ]
+    },
+    {
+      "name": "full_syllabus",
+      "domain": "syllabus",
+      "description": "Retrieve comprehensive multi-unit syllabus for a course",
+      "examples": [
+        "Give me the complete syllabus of Operating Systems",
+        "Syllabus for Data Structures and Algorithms",
+        "Full syllabus of Computer Networks Version 3.0"
+      ]
+    },
+    {
+      "name": "course_outcomes",
+      "domain": "syllabus",
+      "description": "Inquire about course outcomes (COs) and graduate attributes",
+      "examples": [
+        "What are the course outcomes of Operating Systems?",
+        "What will I learn in Machine Learning?",
+        "List the COs for Database Management Systems"
+      ]
+    },
+    {
+      "name": "textbook_references",
+      "domain": "syllabus",
+      "description": "Inquire about recommended textbooks, reference books, and authors",
+      "examples": [
+        "What textbooks are recommended for Operating Systems?",
+        "Give reference books and authors for Data Structures",
+        "Which book is best for Database Management Systems in Version 3.0?"
+      ]
+    },
+    {
+      "name": "lab_experiments",
+      "domain": "syllabus",
+      "description": "Inquire about practical lab experiments or software practice modules",
+      "examples": [
+        "What experiments are conducted in Data Structures Lab?",
+        "List lab modules for Operating Systems laboratory",
+        "Database Management Systems practical exercises?"
+      ]
+    },
+    {
+      "name": "minor_stream_list",
+      "domain": "electives",
+      "description": "List minor streams and specializations available to a department",
+      "examples": [
+        "Which minor streams are available to CSE students?",
+        "What minor degrees can I take in Aditya University?",
+        "List of minor specializations in B.Tech"
+      ]
+    },
+    {
+      "name": "minor_stream_courses",
+      "domain": "electives",
+      "description": "List specific courses under a minor stream or degree",
+      "examples": [
+        "What courses are included in Artificial Intelligence Minor Stream?",
+        "List of subjects in Cloud Computing minor"
+      ]
+    },
+    {
+      "name": "elective_options",
+      "domain": "electives",
+      "description": "Inquire about university open electives (UEC) or department electives",
+      "examples": [
+        "What open electives can I take in 5th semester?",
+        "List of university open electives in 6th semester"
+      ]
+    },
+    {
+      "name": "academic_calendar",
+      "domain": "examinations",
+      "description": "Inquire about academic schedule, working days, or semester start dates",
+      "examples": [
+        "What is the official academic calendar for B.Tech?",
+        "When does odd semester classes commence?",
+        "When are mid-term examinations scheduled?"
+      ]
+    },
+    {
+      "name": "exam_timetable",
+      "domain": "examinations",
+      "description": "Inquire about examination schedule, dates, and mid-term assessments",
+      "examples": [
+        "What is the semester exam timetable?",
+        "When will mid-2 exams start?",
+        "End semester theory exam dates?"
+      ]
+    },
+    {
+      "name": "internship_requirements",
+      "domain": "internships",
+      "description": "Inquire about summer internships (SI) and full-semester project requirements",
+      "examples": [
+        "How many credits are allotted for Summer Internship?",
+        "What are the internship requirements in 7th and 8th semester?"
+      ]
+    },
+    {
+      "name": "attendance_policy",
+      "domain": "administration",
+      "description": "Inquire about minimum attendance (75%), condonation rules (65-75%), and detention policy",
+      "examples": [
+        "What is the attendance policy?",
+        "What is the minimum attendance required?",
+        "How does condonation work in R24?",
+        "What happens if my attendance is below 75%?",
+        "What is the detention rule for attendance shortage?",
+        "How much condonation fee do I need to pay?",
+        "Minimum attendance percentage required to write semester exams?",
+        "Attendance policy cheppandi",
+        "Attendance 65 kante thakkuva unte em avuthundi?",
+        "హాజరు నిబంధనలు ఏమిటి?",
+        "కనీస హాజరు ఎంత శాతం ఉండాలి?"
+      ]
+    },
+    {
+      "name": "grading_system",
+      "domain": "administration",
+      "description": "Inquire about 10-point grading scale, letter grades (O to F), SGPA and CGPA calculation, and pass marks",
+      "examples": [
+        "What is the grading system in Aditya University?",
+        "How is SGPA and CGPA calculated?",
+        "What are the grade points for O grade and A+ grade?",
+        "What are the minimum passing marks in semester exams?",
+        "Explain the 10-point grading scale",
+        "SGPA formula emiti?",
+        "Grading system ela untundi?",
+        "గ్రేడింగ్ విధానం మరియు SGPA లెక్కింపు వివరించండి"
+      ]
+    },
+    {
+      "name": "promotion_rules",
+      "domain": "administration",
+      "description": "Inquire about year-to-year promotion criteria, 50% credit threshold, and backlog detention",
+      "examples": [
+        "What are the promotion rules from 2nd year to 3rd year?",
+        "What are the credit criteria for promotion to next year?",
+        "How many credits needed to be promoted to 3rd year?",
+        "Promotion policy for B.Tech students?",
+        "Next year ki promote avvalante enni credits undali?",
+        "ప్రమోషన్ నిబంధనలు ఏమిటి?"
+      ]
+    },
+    {
+      "name": "honours_minors",
+      "domain": "electives",
+      "description": "Inquire about B.Tech Honours and Minor degrees, CGPA cutoff (7.50), and extra 18-20 credits",
+      "examples": [
+        "What are the eligibility rules for B.Tech Honours degree?",
+        "How can I take a Minor degree in CSE?",
+        "What is the CGPA required for Honours?",
+        "How many extra credits for B.Tech Honours or Minor?",
+        "Honours degree ela teesukovali?",
+        "మైనర్ డిగ్రీ నిబంధనలు ఏమిటి?"
+      ]
+    },
+    {
+      "name": "institutional_leadership",
+      "domain": "administration",
+      "description": "Inquire about Aditya University leadership, Chancellor, campus location, and governance",
+      "examples": [
+        "Who is the principal?",
+        "Who is the Chancellor of Aditya University?",
+        "Who is Dr. N. Sesha Reddy?",
+        "Where is Aditya University located?",
+        "Tell me about Aditya University leadership",
+        "Aditya University Chancellor evaru?",
+        "యూనివర్సిటీ ఛాన్సలర్ ఎవరు?"
+      ]
+    },
+    {
+      "name": "admission_information",
+      "domain": "administration",
+      "description": "Inquire about Aditya University admissions, campus location, or contact",
+      "examples": [
+        "Where is Aditya University located?",
+        "What is the AP EAPCET code for Aditya University?",
+        "What is the cutoff rank for CSE?",
+        "How to get admission in B.Tech?",
+        "Admissions helpline contact number?",
+        "Aditya University lo admission ela pondali?"
+      ]
+    },
+    {
+      "name": "greeting",
+      "domain": "campus_support",
+      "description": "Conversational greeting or hello",
+      "examples": [
+        "Hello CampusAI",
+        "Hi, good morning",
+        "Namaskaram",
+        "నమస్కారం",
+        "Hey there"
+      ]
+    },
+    {
+      "name": "thanks",
+      "domain": "campus_support",
+      "description": "User expression of gratitude",
+      "examples": [
+        "Thank you so much",
+        "Thanks for the info",
+        "Chala thanks",
+        "ధన్యవాదాలు"
+      ]
+    }
+  ]
+}

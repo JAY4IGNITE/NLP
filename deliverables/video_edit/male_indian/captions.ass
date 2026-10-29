@@ -1,0 +1,50 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Segoe UI,34,&H00F7F9FC,&H000000FF,&H000B1017,&H000B1017,0,0,0,0,100,100,0,0,1,0,0,2,180,180,10,1
+Style: Chapter,Segoe UI Semibold,22,&H00BCD560,&H000000FF,&H000B1017,&H000B1017,-1,0,0,0,100,100,0.6,0,3,8,0,7,100,100,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.35,0:00:04.64,Caption,,0,0,0,,Hi, let's take a quick look at this loan risk dashboard.
+Dialogue: 1,0:00:04.80,0:00:12.07,Caption,,0,0,0,,We can enter a person's details, check their risk score,\Nand understand how the model arrived at the result.
+Dialogue: 1,0:00:12.95,0:00:17.24,Caption,,0,0,0,,First, this page gives us an overview of the applicants.
+Dialogue: 1,0:00:17.40,0:00:23.81,Caption,,0,0,0,,We can see repayment results and compare groups by income,\Neducation, and other details.
+Dialogue: 1,0:00:24.68,0:00:28.84,Caption,,0,0,0,,Now, let's enter the yearly income and the loan amount.
+Dialogue: 1,0:00:29.00,0:00:34.83,Caption,,0,0,0,,We can also add other loan details and the goods price, if\Nthat information is available.
+Dialogue: 1,0:00:35.68,0:00:42.97,Caption,,0,0,0,,Next, we fill in the age, work experience, family details,\Nand housing information.
+Dialogue: 1,0:00:43.13,0:00:47.76,Caption,,0,0,0,,Once these basic details are ready, we can move to the\Nrisk check.
+Dialogue: 1,0:00:48.62,0:00:52.89,Caption,,0,0,0,,If we have external credit scores, we can enter them here.
+Dialogue: 1,0:00:53.05,0:00:57.77,Caption,,0,0,0,,Otherwise, we can leave these fields blank and click\NAssess risk.
+Dialogue: 1,0:00:58.65,0:01:03.53,Caption,,0,0,0,,Here, the estimated chance of default is seven point six\Npercent.
+Dialogue: 1,0:01:03.69,0:01:08.94,Caption,,0,0,0,,The risk score is eight out of one hundred, which falls in\Nthe low risk group.
+Dialogue: 1,0:01:09.82,0:01:14.81,Caption,,0,0,0,,This is only an estimate. It does not guarantee what will\Nhappen.
+Dialogue: 1,0:01:14.97,0:01:19.53,Caption,,0,0,0,,A person still needs to review the result before making a\Nlending decision.
+Dialogue: 1,0:01:20.38,0:01:23.96,Caption,,0,0,0,,Now, let's see what is behind the prediction.
+Dialogue: 1,0:01:24.12,0:01:30.20,Caption,,0,0,0,,This page shows the main factors used by the model, along\Nwith a breakdown for this applicant.
+Dialogue: 1,0:01:31.05,0:01:35.34,Caption,,0,0,0,,Here, we compare different models using cross validation.
+Dialogue: 1,0:01:35.50,0:01:41.57,Caption,,0,0,0,,XGBoost is selected, and we can check the comparison and\Ntuning details on this page.
+Dialogue: 1,0:01:42.45,0:01:47.35,Caption,,0,0,0,,Next, we check the model's test results and performance\Ncharts.
+Dialogue: 1,0:01:47.51,0:01:52.17,Caption,,0,0,0,,These help us see how well the model works and how its\Nscores behave.
+Dialogue: 1,0:01:53.05,0:01:57.66,Caption,,0,0,0,,The methodology page explains the formulas used in the\Ndashboard.
+Dialogue: 1,0:01:57.82,0:02:03.25,Caption,,0,0,0,,The feature reference tells us what each input means and\Nhow missing details are handled.
+Dialogue: 1,0:02:04.12,0:02:08.51,Caption,,0,0,0,,Finally, we can check the model version and training\Ndetails.
+Dialogue: 1,0:02:08.67,0:02:15.34,Caption,,0,0,0,,So, we can go from applicant details to a risk estimate,\Nand review the information behind it.
+Dialogue: 0,0:00:02.00,0:00:12.60,Chapter,,0,0,0,,01  /  OVERVIEW
+Dialogue: 0,0:00:12.60,0:00:24.33,Chapter,,0,0,0,,02  /  PORTFOLIO ANALYTICS
+Dialogue: 0,0:00:24.33,0:00:35.33,Chapter,,0,0,0,,03  /  FINANCIAL DETAILS
+Dialogue: 0,0:00:35.33,0:00:48.27,Chapter,,0,0,0,,04  /  APPLICANT PROFILE
+Dialogue: 0,0:00:48.27,0:00:58.30,Chapter,,0,0,0,,05  /  RUN THE ASSESSMENT
+Dialogue: 0,0:00:58.30,0:01:09.47,Chapter,,0,0,0,,06  /  PREDICTION RESULT
+Dialogue: 0,0:01:09.47,0:01:20.03,Chapter,,0,0,0,,07  /  INTERPRET THE RESULT
+Dialogue: 0,0:01:20.03,0:01:30.70,Chapter,,0,0,0,,08  /  EXPLAIN THE PREDICTION
+Dialogue: 0,0:01:30.70,0:01:42.10,Chapter,,0,0,0,,09  /  COMPARE MODELS
+Dialogue: 0,0:01:42.10,0:01:52.70,Chapter,,0,0,0,,10  /  CHECK PERFORMANCE
+Dialogue: 0,0:01:52.70,0:02:03.77,Chapter,,0,0,0,,11  /  METHODOLOGY AND REFERENCE
+Dialogue: 0,0:02:03.77,0:02:15.87,Chapter,,0,0,0,,12  /  MODEL INFORMATION

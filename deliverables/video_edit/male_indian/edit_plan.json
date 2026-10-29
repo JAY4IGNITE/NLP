@@ -1,0 +1,14 @@
+[
+  {"title":"Overview","clips":[[0.1,2.0],[3.0,5.5]],"sentences":["Hi, let's take a quick look at this loan risk dashboard.","We can enter a person's details, check their risk score, and understand how the model arrived at the result."]},
+  {"title":"Portfolio analytics","clips":[[10.1,13.0],[14.0,17.2]],"sentences":["First, this page gives us an overview of the applicants.","We can see repayment results and compare groups by income, education, and other details."]},
+  {"title":"Financial details","clips":[[18.6,20.1],[24.2,26.2],[28.0,31.2]],"sentences":["Now, let's enter the yearly income and the loan amount.","We can also add other loan details and the goods price, if that information is available."]},
+  {"title":"Applicant profile","clips":[[35.1,37.3],[43.0,45.2],[51.0,53.1],[59.0,61.1],[73.0,74.8],[78.0,80.0],[98.2,99.8]],"sentences":["Next, we fill in the age, work experience, family details, and housing information.","Once these basic details are ready, we can move to the risk check."]},
+  {"title":"Run the assessment","clips":[[100.4,103.5],[105.2,108.8]],"sentences":["If we have external credit scores, we can enter them here.","Otherwise, we can leave these fields blank and click Assess risk."]},
+  {"title":"Prediction result","clips":[[116.6,116.7]],"sentences":["Here, the estimated chance of default is seven point six percent.","The risk score is eight out of one hundred, which falls in the low risk group."]},
+  {"title":"Interpret the result","clips":[[123.0,127.8]],"sentences":["This is only an estimate. It does not guarantee what will happen.","A person still needs to review the result before making a lending decision."]},
+  {"title":"Explain the prediction","clips":[[129.5,132.5],[133.5,135.3]],"sentences":["Now, let's see what is behind the prediction.","This page shows the main factors used by the model, along with a breakdown for this applicant."]},
+  {"title":"Compare models","clips":[[137.2,139.0],[140.0,141.6]],"sentences":["Here, we compare different models using cross validation.","X G Boost is selected, and we can check the comparison and tuning details on this page."]},
+  {"title":"Check performance","clips":[[142.3,144.0],[145.0,146.4],[147.4,149.6]],"sentences":["Next, we check the model's test results and performance charts.","These help us see how well the model works and how its scores behave."]},
+  {"title":"Methodology and reference","clips":[[151.8,153.2],[155.1,157.0],[163.2,164.8],[166.5,168.0],[172.0,174.0],[178.6,180.0]],"sentences":["The methodology page explains the formulas used in the dashboard.","The feature reference tells us what each input means and how missing details are handled."]},
+  {"title":"Model information","clips":[[181.0,183.0],[187.7,189.9]],"sentences":["Finally, we can check the model version and training details.","So, we can go from applicant details to a risk estimate, and review the information behind it."]}
+]

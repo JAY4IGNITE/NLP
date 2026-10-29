@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "sl/y90nupkv",
+    "index": 0,
+    "layout": {
+      "id": "ly/p83mt83u",
+      "name": "Title14"
+    },
+    "elements": [
+      {
+        "id": "sh/qhsbq9k7",
+        "kind": "textbox",
+        "text": "CampusNLP: An Intelligent NLP-Based University Student Query Understanding and Knowledge Retrieval System",
+        "position": {
+          "left": 116.5,
+          "top": 336.18,
+          "width": 1123.01,
+          "height": 104.16
+        },
+        "style": {
+          "fontSize": 40,
+          "typeface": "Calibri",
+          "color": "#21409A",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/tofapkju",
+        "kind": "textbox",
+        "text": "Team Members:\nV. Jaya Sai Krishna\t\t(24B11CS514)\nY. Pavanputra\t\t(24B11CS504)\nK. Krishna Vardhan\t\t(24B11CS237)\nK. Mohan Vamsi Reddy\t(24B11CS197)",
+        "position": {
+          "left": 123.52,
+          "top": 360,
+          "width": 942.46,
+          "height": 283.46
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#0070C0",
+          "bold": true,
+          "alignment": "center"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/hwbqtkby",
+    "index": 1,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/wbm1cvix",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/gful8jqt",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/hg32ho7e",
+        "kind": "textbox",
+        "text": "CONTENTS",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 59.34
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#006666",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/uts3698n",
+        "kind": "textbox",
+        "text": "Introduction\nProblem Definition\nProposed Solution\nProposed Workflow\nData Used\nModules\nText Preprocessing\nIntent Classification\nSemantic Retrieval & Grounding\nNLP / ML Algorithm\nOutput / Result\nConclusion and Future Scope",
+        "position": {
+          "left": 66.33,
+          "top": 103.97,
+          "width": 1152,
+          "height": 552
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/ofy9wn61",
+    "index": 2,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/qh0jqx8z",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/1oripcrm",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/0ni1w7q1",
+        "kind": "textbox",
+        "text": "Introduction\n",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/fm90n29w",
+        "kind": "textbox",
+        "text": "What is the project about? CampusNLP is an intelligent NLP system designed to understand student queries, predict their intent, retrieve relevant academic evidence from an institutional knowledge base, and produce a grounded response with source citations.\nApplication domain: Natural Language Processing and Information Retrieval applied to university student services (e.g., academic regulations, curriculum, attendance rules).\nWhy is this topic important? Students often struggle to find accurate, institution-specific answers quickly. A grounded NLP system provides instant, reliable answers without fabricating information (hallucinations).\nWhat motivated the team? We wanted to build a practical, hybrid NLP pipeline that goes beyond a simple LLM chatbot by combining intent classification and semantic retrieval, and crucially, knows how to abstain when reliable evidence is unavailable.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jyx0ra1s",
+    "index": 3,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/bqponuhg",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/onypsfy5",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/9o76lkzq",
+        "kind": "textbox",
+        "text": "Problem Definition",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/ri58ba1c",
+        "kind": "textbox",
+        "text": "Existing problem: Institutional knowledge is scattered across various documents (regulations, curriculum, hostel rules), making manual search inefficient and time-consuming.\nDifficulties faced: Students face delays in getting answers. Plain keyword searches fail on complexly worded queries, and off-the-shelf LLMs often invent incorrect, unverified answers.\nWhy the problem is important: Misinformation or delays can negatively affect a student’s academic planning, course registration, and compliance with university rules.\nWho is affected: University students, faculty, and administrative staff who handle repetitive queries.\nWhat needs to be improved: A system that understands natural-language questions, directly extracts exact evidence from official documents, and only answers when highly confident.",
+        "position": {
+          "left": 62.67,
+          "top": 148.84,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/i107q5of",
+    "index": 4,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/md83yhcr",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/9gjmtwvi",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/8fql0rux",
+        "kind": "textbox",
+        "text": "Proposed Solution",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/zahkn2dg",
+        "kind": "textbox",
+        "text": "Major functions: Preprocess student queries, classify query intent (e.g., exam_schedule), retrieve relevant passages from the knowledge base, verify confidence, and output a grounded answer with source citations.\nInput → Processing → Output: Student query → Preprocessing, Intent Classification, Semantic Retrieval, Evidence Ranking → Grounded answer with source citation (or a safe abstention).\nExpected users: University students and administrative staff.\nExpected benefits: Accurate, fast, and verifiable answers. Reduces manual query handling and prevents the spread of misinformation.\nProposed methodology/workflow: A hybrid approach using Intent Classification for structured lookup and Semantic Retrieval for unstructured document search, followed by a strict confidence check.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/x8f69ofe",
+    "index": 5,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/lk729sn2",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/yhgjed4b",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/zipk7i5w",
+        "kind": "textbox",
+        "text": "Proposed Workflow (System Architecture)",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 53.33,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/mhgn2pk3",
+        "kind": "textbox",
+        "text": "1",
+        "position": {
+          "left": 66.33,
+          "top": 155.38,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/nipobu1o",
+        "kind": "textbox",
+        "text": "Query Preprocessing Layer",
+        "position": {
+          "left": 140.87,
+          "top": 155.38,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/ojy54z29",
+        "kind": "textbox",
+        "text": "Raw student queries undergo text normalization, whitespace correction, and tokenization before feature extraction.",
+        "position": {
+          "left": 477.69,
+          "top": 155.38,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/9476d4ju",
+        "kind": "textbox",
+        "text": "2",
+        "position": {
+          "left": 66.33,
+          "top": 246.72,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/a5g769kf",
+        "kind": "textbox",
+        "text": "Intent Classification Layer",
+        "position": {
+          "left": 140.87,
+          "top": 246.72,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/b6pofe10",
+        "kind": "textbox",
+        "text": "The processed query is routed through a machine learning classifier to predict one of 24 distinct intents (e.g., exam_schedule, fees).",
+        "position": {
+          "left": 477.69,
+          "top": 246.72,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/w7yp8j25",
+        "kind": "textbox",
+        "text": "3",
+        "position": {
+          "left": 66.33,
+          "top": 338.06,
+          "width": 68.24,
+          "height": 125.98
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/x8r6hojq",
+        "kind": "textbox",
+        "text": "Hybrid Information Retrieval Layer",
+        "position": {
+          "left": 140.87,
+          "top": 338.06,
+          "width": 314.96,
+          "height": 125.98
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/y907a90b",
+        "kind": "textbox",
+        "text": "Structured Lookup: For deterministic intents, structured JSON catalogs (like course details) are queried.\nSemantic Retrieval: For unstructured intents, institutional documents are chunked, embedded into dense vectors, and indexed. The system retrieves Top-K passages using cosine similarity.",
+        "position": {
+          "left": 477.69,
+          "top": 338.06,
+          "width": 740.16,
+          "height": 125.98
+        },
+        "style": {
+          "fontSize": 20,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/ja9oje1w",
+        "kind": "textbox",
+        "text": "4",
+        "position": {
+          "left": 66.33,
+          "top": 475.59,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/t4bq983y",
+        "kind": "textbox",
+        "text": "Evidence Ranking & Verification Check",
+        "position": {
+          "left": 140.87,
+          "top": 475.59,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/83290nmd",
+        "kind": "textbox",
+        "text": "Retrieved passages are ranked. A configurable confidence threshold ensures only highly relevant evidence passes through.",
+        "position": {
+          "left": 477.69,
+          "top": 475.59,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/72t87il8",
+        "kind": "textbox",
+        "text": "5",
+        "position": {
+          "left": 66.33,
+          "top": 566.93,
+          "width": 68.24,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 37.33,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/61kryd4n",
+        "kind": "textbox",
+        "text": "Grounded Answer Generation",
+        "position": {
+          "left": 140.87,
+          "top": 566.93,
+          "width": 314.96,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Calibri",
+          "color": "#FFFFFF",
+          "bold": true,
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/h8vads3a",
+        "kind": "textbox",
+        "text": "If confident, the system generates the answer and explicitly cites the source (document, page). If uncertain, it safely abstains.",
+        "position": {
+          "left": 477.69,
+          "top": 566.93,
+          "width": 740.16,
+          "height": 79.79
+        },
+        "style": {
+          "fontSize": 21.33,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/gnmp4jqx",
+    "index": 6,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/zetkbup4",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/0z2l4z6p",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/10b2dk7a",
+        "kind": "textbox",
+        "text": "Data Used",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/q903y5on",
+        "kind": "textbox",
+        "text": "Source of data: CampusFAQ-50K (a synthetic controlled benchmark) and an institutional knowledge base (academic calendar, regulations, curriculum).\nType of data: Unstructured text (official university documents) and structured question-answering pairs.\nNumber of records: 50,000 records in the CampusFAQ-50K benchmark, spanning 24 intents.\nImportant attributes/columns: Query, intent, answerable, expected_evidence, difficulty, and source.\nData format: CSV files for datasets, JSON for structured lookups, and standard documents (PDFs/TXT) for the institutional knowledge base.\nTrain/test split: Stratified 80/20 split by intent: 40,000 training and 10,000 testing samples, preserving the proportion of all 24 intent classes to prevent class imbalance and ensure reliable evaluation on unseen data.",
+        "position": {
+          "left": 63.99,
+          "top": 158.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#000000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/fu1gfa1s",
+    "index": 7,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/6hsne1gz",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/qxkfqpsn",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/rytgzu98",
+        "kind": "textbox",
+        "text": "Modules",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/sz2xszad",
+        "kind": "textbox",
+        "text": "NLP Text Preprocessing & Feature Extraction\nTransforms raw natural language into machine-readable formats. Employs advanced tokenization, noise reduction, and TF-IDF (Term Frequency-Inverse Document Frequency) vectorization.\nMachine Learning Intent Classification\nA dedicated ML module that learns from 50,000 query examples (CampusFAQ-50K). It uses classification algorithms to categorize queries across 24 intent classes with high F1-score accuracy.\nSemantic Embedding & Document Retrieval\nConverts institutional text chunks into dense multidimensional vector embeddings. The retrieval module performs rapid similarity searches across this vector space to fetch exact evidence while preserving source metadata.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/udsvah03",
+    "index": 8,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/lojqlgny",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/ax87mh4b",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/byh8fm5w",
+        "kind": "textbox",
+        "text": "Core NLP & ML Algorithms",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/cjqpormh",
+        "kind": "textbox",
+        "text": "Intent Classification Models (TF-IDF + LR/SVM)\nTF-IDF Vectorization: Weights terms by their frequency in a query vs. their rarity across the dataset.\nLogistic Regression & Linear SVM: These algorithms learn the decision boundaries between 24 intents, providing highly accurate and fast structured query routing.\nSemantic Retrieval Models (Embeddings & Cosine Similarity)\nDense Vector Embeddings: Encodes the semantic meaning of sentences into numerical vectors, allowing the system to match paraphrased questions even if exact keywords differ.\nCosine Similarity: Ranks passages by measuring the cosine of the angle between the query vector and document chunk vectors: cos(θ) = (A · B) / (||A|| ||B||).\nAlgorithmic Thresholding (The \"Abstention\" Logic)\nApplies a strict mathematical confidence threshold to the similarity scores. If the highest score falls below the threshold, the system deterministically abstains, ensuring zero hallucinations.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/m90b6t0r",
+    "index": 9,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/p4zmtgra",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/mxcnu5sn",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/7yl43a98",
+        "kind": "textbox",
+        "text": "Output / Result",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/hsn6t4bq",
+        "kind": "textbox",
+        "text": "Main Interface\nDisplays the student query, predicted intent, the final answer, confidence score, and the exact evidence/source document (e.g., \"Academic Regulations — Page 12\").\nAbstention Mechanism\nWhen evidence is below the confidence threshold, the system safely abstains instead of inventing an answer (No Info).\nEvaluation Metrics\nThe system evaluates intent classification (Accuracy, Precision, F1-score) and retrieval (Precision@K, MRR), alongside grounding correctness.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "left"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jetc3ut0",
+    "index": 10,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "Title13"
+    },
+    "elements": [
+      {
+        "id": "sh/365knadg",
+        "kind": "shape",
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/g3e1cfe5",
+        "kind": "shape",
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        },
+        "style": {
+          "fontSize": 24,
+          "typeface": "Arial",
+          "color": "#000000",
+          "alignment": "left"
+        }
+      },
+      {
+        "id": "sh/14n2lkvq",
+        "kind": "textbox",
+        "text": "Conclusion and Future Scope\n",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        },
+        "style": {
+          "fontSize": 64,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "alignment": "center"
+        }
+      },
+      {
+        "id": "sh/e1wja5wz",
+        "kind": "textbox",
+        "text": "Conclusion\nCampusNLP successfully demonstrates a hybrid NLP pipeline that understands student queries, retrieves verifiable institutional evidence, and answers with high accuracy while strictly avoiding hallucinations.\nFuture Scope\nExpand the institutional knowledge base, improve retrieval accuracy on more complex multi-hop queries, and deploy the system across multiple university departments with a live student evaluation set.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        },
+        "style": {
+          "fontSize": 26.67,
+          "typeface": "Times New Roman",
+          "color": "#FF0000",
+          "bold": true,
+          "alignment": "left"
+        }
+      }
+    ]
+  }
+]

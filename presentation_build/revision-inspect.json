@@ -1,0 +1,1439 @@
+[
+  {
+    "id": "sl/y90nupkv",
+    "index": 0,
+    "title": "CampusAI: Intelligent Multi-Department",
+    "elements": [
+      {
+        "text": "CampusAI: Intelligent Multi-Department\nAcademic Helpdesk",
+        "position": {
+          "left": 64,
+          "top": 260,
+          "width": 1152,
+          "height": 130
+        }
+      },
+      {
+        "text": "Team Members:\nV. Jaya Sai Krishna  (24B11CS514)\nY. Pavanputra  (24B11CS504)\nK. Krishna Vardhan  (24B11CS237)\nK. Mohan Vamsi Reddy  (24B11CS197)",
+        "position": {
+          "left": 160,
+          "top": 440,
+          "width": 960,
+          "height": 210
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/hwbqtkby",
+    "index": 1,
+    "title": "CONTENTS",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "CONTENTS",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 59.34
+        }
+      },
+      {
+        "text": "1. Introduction\n2. Problem Definition\n3. Proposed Solution\n4. Proposed Workflow\n5. Data Used\n6. Modules\n7. Core NLP and ML Algorithms\n8. Application Output\n9. Evaluation Results\n10. Conclusion and Future Scope",
+        "position": {
+          "left": 66.33,
+          "top": 103.97,
+          "width": 1152,
+          "height": 552
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/ofy9wn61",
+    "index": 2,
+    "title": "Introduction",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Introduction",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        }
+      },
+      {
+        "text": "Project overview: CampusAI is an academic helpdesk for Aditya University. It interprets student questions and retrieves curriculum evidence with document and page references.\nApplication domain: Natural Language Processing and Information Retrieval for B.Tech Curriculum 2024, Version 3.0, across eight engineering departments.\nStudent needs: Students can ask about course codes, credits, semester subjects, syllabus units, prerequisites, and academic regulations.\nProject objective: Combine intent classification, exact database lookup, and hybrid document retrieval to make academic answers easier to find and verify.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jyx0ra1s",
+    "index": 3,
+    "title": "Problem Definition",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Problem Definition",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        }
+      },
+      {
+        "text": "Existing problem: Academic information spans eight curriculum PDFs containing 6,502 pages. Students must identify the correct department, semester, and source page.\nSearch difficulties: Abbreviations, paraphrases, and Telugu-English queries can obscure intent. Similar course names also require department context.\nRisk of incorrect answers: Wrong credits, prerequisites, or semester details can mislead academic planning. A fluent answer alone does not establish accuracy.\nAffected users: Students seeking academic guidance and staff who repeatedly answer curriculum questions.\nRequired improvement: Route factual questions to structured records and support descriptive answers with traceable evidence, clarification, or abstention.",
+        "position": {
+          "left": 62.67,
+          "top": 148.84,
+          "width": 1152,
+          "height": 523.84
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/i107q5of",
+    "index": 4,
+    "title": "Proposed Solution",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Proposed Solution",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        }
+      },
+      {
+        "text": "Query understanding: Identify language, normalize academic terms, predict one of 30 intents, and extract course, department, semester, and unit entities.\nExact academic facts: Use SQL retrieval for structured details such as course codes, credits, and semester offerings.\nSyllabus and topic search: Combine BM25 keyword retrieval with dense semantic search, fuse rankings with RRF, and rerank candidate passages.\nEvidence-based responses: Generate answers from retrieved content, attach document and page references, and request clarification when the query is ambiguous.\nStudent application: A React and TypeScript interface connects to FastAPI for chat, course exploration, semester views, comparisons, and source viewing.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/x8f69ofe",
+    "index": 5,
+    "title": "Proposed Workflow (System Architecture)",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Proposed Workflow (System Architecture)",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        }
+      },
+      {
+        "text": "1",
+        "position": {
+          "left": 66.33,
+          "top": 155.38,
+          "width": 68.24,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Query Understanding",
+        "position": {
+          "left": 140.87,
+          "top": 155.38,
+          "width": 314.96,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Detect language, normalize academic terms, extract entities, and resolve context from earlier questions.",
+        "position": {
+          "left": 477.69,
+          "top": 155.38,
+          "width": 740.16,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "2",
+        "position": {
+          "left": 66.33,
+          "top": 246.72,
+          "width": 68.24,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Intent Classification",
+        "position": {
+          "left": 140.87,
+          "top": 246.72,
+          "width": 314.96,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Word and character TF-IDF features feed a soft-voting ensemble that predicts one of 30 academic and conversational intents.",
+        "position": {
+          "left": 477.69,
+          "top": 246.72,
+          "width": 740.16,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "3",
+        "position": {
+          "left": 66.33,
+          "top": 338.06,
+          "width": 68.24,
+          "height": 125.98
+        }
+      },
+      {
+        "text": "SQL and Hybrid Retrieval",
+        "position": {
+          "left": 140.87,
+          "top": 338.06,
+          "width": 314.96,
+          "height": 125.98
+        }
+      },
+      {
+        "text": "Structured facts: Query academic database records.\nDocument evidence: Search BM25 and dense indices, combine results with Reciprocal Rank Fusion, and retain source metadata.",
+        "position": {
+          "left": 477.69,
+          "top": 338.06,
+          "width": 740.16,
+          "height": 125.98
+        }
+      },
+      {
+        "text": "4",
+        "position": {
+          "left": 66.33,
+          "top": 475.59,
+          "width": 68.24,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Evidence Ranking and Checks",
+        "position": {
+          "left": 140.87,
+          "top": 475.59,
+          "width": 314.96,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Cross-encoder reranking prioritizes relevant passages. Citation checks and confidence rules support evidence selection.",
+        "position": {
+          "left": 477.69,
+          "top": 475.59,
+          "width": 740.16,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "5",
+        "position": {
+          "left": 66.33,
+          "top": 566.93,
+          "width": 68.24,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Answer and Source Display",
+        "position": {
+          "left": 140.87,
+          "top": 566.93,
+          "width": 314.96,
+          "height": 79.79
+        }
+      },
+      {
+        "text": "Return an answer with document and page references, ask for clarification, or report that sufficient evidence is unavailable.",
+        "position": {
+          "left": 477.69,
+          "top": 566.93,
+          "width": 740.16,
+          "height": 79.79
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/gnmp4jqx",
+    "index": 6,
+    "title": "Data Used",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Data Used",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        }
+      },
+      {
+        "text": "Official source corpus: Eight Aditya University B.Tech Curriculum 2024 PDFs, Version 3.0, covering 6,502 pages.\nDepartment coverage: CSE, CSE-DS, IT, ECE, EEE, Civil Engineering, Mining Engineering, and Petroleum Technology.\nStructured academic catalog: 569 registered courses, 583 syllabus units, and 1,273 textbook references.\nIntent dataset: 1,201 labeled queries across 30 classes. Fields include query, intent, domain, language, course, department, semester, and unit.\nTraining and evaluation: A stratified 80/20 split gives 960 training and 241 test queries. Separate stratified five-fold cross-validation estimates model stability.\nData formats: PDF source documents, a CSV query dataset, JSON metadata and indices, and a relational academic database.",
+        "position": {
+          "left": 63.99,
+          "top": 158.17,
+          "width": 1152,
+          "height": 523.84
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/fu1gfa1s",
+    "index": 7,
+    "title": "Modules",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Modules",
+        "position": {
+          "left": 63.99,
+          "top": 28.61,
+          "width": 1152,
+          "height": 91.35
+        }
+      },
+      {
+        "text": "Text Preprocessing and Query Understanding\nNormalize case, punctuation, and whitespace while preserving course codes, academic acronyms, and Telugu text. Extract entities and handle follow-up or multi-intent questions.\nIntent Classification\nCombine word and character TF-IDF features with calibrated Linear SVM, Logistic Regression, and Complement Naive Bayes. Confidence and alternative intents support query routing.\nRetrieval, Grounding, and Application\nRetrieve exact facts through SQL and descriptive evidence through hybrid search. The RAG layer adds citations, while the web app provides chat, course exploration, comparisons, and PDF source viewing.",
+        "position": {
+          "left": 66.33,
+          "top": 132.13,
+          "width": 1152,
+          "height": 523.84
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/3rfqjk",
+    "index": 8,
+    "title": "NLP Query Understanding",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "NLP Query Understanding",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "1. Language and text normalization",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Recognize English, Telugu, or mixed queries. Normalize case, punctuation, and whitespace while preserving course codes and academic abbreviations. Lemmatization is optional when language resources are available.",
+        "position": {
+          "left": 74,
+          "top": 198,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "2. Academic entity extraction",
+        "position": {
+          "left": 74,
+          "top": 313,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Identify the course, department, semester, and unit independently of intent. For “Explain Unit 3 of Operating Systems in CSE,” the entities specify which syllabus content to retrieve.",
+        "position": {
+          "left": 74,
+          "top": 356,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "3. Context and ambiguity handling",
+        "position": {
+          "left": 74,
+          "top": 471,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Use earlier turns to interpret follow-up questions. Ask for clarification when an abbreviation has multiple meanings, and decompose requests that ask for more than one type of academic information.",
+        "position": {
+          "left": 74,
+          "top": 514,
+          "width": 1132,
+          "height": 113
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/12a4ay",
+    "index": 9,
+    "title": "TF-IDF Feature Extraction",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "TF-IDF Feature Extraction",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Word features: phrases of one to three words",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Word n-grams preserve expressions such as “course credits” and “semester total credits.” TF-IDF reduces the influence of frequent terms and gives more weight to terms that distinguish queries.",
+        "position": {
+          "left": 74,
+          "top": 198,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Character features: sequences of two to five characters",
+        "position": {
+          "left": 74,
+          "top": 313,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Character n-grams capture fragments within word boundaries. They provide additional signals for spelling variations and related word forms when exact full-word matches differ.",
+        "position": {
+          "left": 74,
+          "top": 356,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "FeatureUnion: one input for all classifiers",
+        "position": {
+          "left": 74,
+          "top": 471,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "The pipeline concatenates word and character TF-IDF vectors. Sublinear term frequency reduces the effect of repeated terms. All three classifiers receive this same sparse feature representation.",
+        "position": {
+          "left": 74,
+          "top": 514,
+          "width": 1132,
+          "height": 113
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/d871i4",
+    "index": 10,
+    "title": "Linear SVM Classifier",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Linear SVM Classifier",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "How it classifies a query",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Linear SVM learns separating boundaries between intent classes in TF-IDF feature space. Its margin-based objective balances class separation against training errors.",
+        "position": {
+          "left": 74,
+          "top": 198,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Why calibration is required",
+        "position": {
+          "left": 74,
+          "top": 313,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "LinearSVC produces decision scores rather than native probabilities. Three-fold probability calibration converts these scores into estimates that can participate in soft voting.",
+        "position": {
+          "left": 74,
+          "top": 356,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "CampusAI configuration and role",
+        "position": {
+          "left": 74,
+          "top": 471,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "The project uses C = 1.5, squared-hinge loss, and L2 regularization. The calibrated SVM receives two of the ensemble’s five weight units. Its standalone accuracy has not been separately reported.",
+        "position": {
+          "left": 74,
+          "top": 514,
+          "width": 1132,
+          "height": 113
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jjv2m3",
+    "index": 11,
+    "title": "Logistic Regression and NB",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Logistic Regression and NB",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Logistic Regression",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 540,
+          "height": 42
+        }
+      },
+      {
+        "text": "Learns a weighted relationship between TF-IDF features and each intent. It produces class probabilities directly for the ensemble.",
+        "position": {
+          "left": 74,
+          "top": 213,
+          "width": 535,
+          "height": 130
+        }
+      },
+      {
+        "text": "Balanced class weights give rarer classes more influence during training. The project uses C = 5.0, the lbfgs solver, and up to 1,000 iterations.",
+        "position": {
+          "left": 74,
+          "top": 368,
+          "width": 535,
+          "height": 145
+        }
+      },
+      {
+        "text": "Voting weight: 2",
+        "position": {
+          "left": 74,
+          "top": 554,
+          "width": 535,
+          "height": 40
+        }
+      },
+      {
+        "text": "Complement Naive Bayes",
+        "position": {
+          "left": 668,
+          "top": 155,
+          "width": 538,
+          "height": 42
+        }
+      },
+      {
+        "text": "Uses feature statistics from the other classes to score an intent. It offers a different statistical approach to sparse text classification.",
+        "position": {
+          "left": 668,
+          "top": 213,
+          "width": 538,
+          "height": 130
+        }
+      },
+      {
+        "text": "Smoothing reduces the effect of unseen features. CampusAI sets alpha = 0.3 and enables weight normalization with norm = True.",
+        "position": {
+          "left": 668,
+          "top": 368,
+          "width": 538,
+          "height": 145
+        }
+      },
+      {
+        "text": "Voting weight: 1",
+        "position": {
+          "left": 668,
+          "top": 554,
+          "width": 538,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/ncfbow",
+    "index": 12,
+    "title": "Soft-Voting Ensemble",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Soft-Voting Ensemble",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Weighted probability combination",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "For each intent, the ensemble combines calibrated SVM, Logistic Regression, and Complement Naive Bayes probabilities. The final intent has the highest combined score.",
+        "position": {
+          "left": 74,
+          "top": 198,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Voting rule",
+        "position": {
+          "left": 74,
+          "top": 313,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Combined score = (2 × SVM probability + 2 × LR probability + NB probability) / 5. The weights are project settings, not the result of a reported model-comparison study.",
+        "position": {
+          "left": 74,
+          "top": 356,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Illustrative calculation",
+        "position": {
+          "left": 74,
+          "top": 471,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "If the three probabilities for course_credits are 0.80, 0.70, and 0.60, its combined score is 0.72. This explains the voting rule; it is not a measured prediction.",
+        "position": {
+          "left": 74,
+          "top": 514,
+          "width": 1132,
+          "height": 113
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/e9zaqz",
+    "index": 13,
+    "title": "The 30 Intent Classes",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "The 30 Intent Classes",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Intent family\tCount\tClasses covered\nCourse information\t8\tCode, credits, category, L-T-P-C, outcomes, prerequisites, full syllabus, textbooks\nAcademic planning\t8\tCourse comparison, degree credits, electives, honours/minors, minor streams, minor courses, semester subjects, semester credits\nRules and regulations\t5\tAttendance, grading, internships, promotion, curriculum version\nUniversity information\t4\tAcademic calendar, admissions, exam timetable, institutional leadership\nSyllabus detail\t2\tUnit syllabus, laboratory experiments\nConversation and scope\t3\tGreeting, thanks, out-of-scope queries",
+        "position": {
+          "left": 74,
+          "top": 150,
+          "width": 1132,
+          "height": 458
+        }
+      },
+      {
+        "text": "Families group the existing labels for explanation. The classifier predicts one of the 30 individual intents.",
+        "position": {
+          "left": 74,
+          "top": 646,
+          "width": 1132,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/0qy9wo",
+    "index": 14,
+    "title": "Hybrid Retrieval Algorithms",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Hybrid Retrieval Algorithms",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "BM25: match specific academic terms",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Sparse retrieval scores keyword relevance using term frequency, inverse document frequency, and document length. Exact course names and codes provide useful lexical signals.",
+        "position": {
+          "left": 74,
+          "top": 198,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "MiniLM: match semantic meaning",
+        "position": {
+          "left": 74,
+          "top": 313,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "all-MiniLM-L6-v2 maps queries and document chunks to 384-dimensional vectors. Cosine similarity ranks passages by vector similarity, helping match related wording.",
+        "position": {
+          "left": 74,
+          "top": 356,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Reciprocal Rank Fusion: combine both lists",
+        "position": {
+          "left": 74,
+          "top": 471,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "RRF adds each passage’s contribution from its rank in each result list: weight / (60 + rank). A passage appearing near the top of both lists receives a stronger combined score.",
+        "position": {
+          "left": 74,
+          "top": 514,
+          "width": 1132,
+          "height": 113
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/ybf2p2",
+    "index": 15,
+    "title": "Reranking and Grounding",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Reranking and Grounding",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Cross-encoder reranking",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "The reranker scores each query and candidate passage together, then selects the highest-ranked evidence. CampusAI uses a MiniLM cross-encoder with a lexical fallback if the model is unavailable.",
+        "position": {
+          "left": 74,
+          "top": 198,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Exact lookup and answer generation",
+        "position": {
+          "left": 74,
+          "top": 313,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Structured questions use SQL academic records. Descriptive questions use retrieved passages as context for the answer generator. This separates factual lookup from free-text synthesis.",
+        "position": {
+          "left": 74,
+          "top": 356,
+          "width": 1132,
+          "height": 113
+        }
+      },
+      {
+        "text": "Citation checks and response boundaries",
+        "position": {
+          "left": 74,
+          "top": 471,
+          "width": 1132,
+          "height": 38
+        }
+      },
+      {
+        "text": "Checks validate source identifiers, page numbers, and mentioned course codes. Missing evidence can trigger abstention or clarification. These checks improve traceability but do not prove every answer claim is correct.",
+        "position": {
+          "left": 74,
+          "top": 514,
+          "width": 1132,
+          "height": 113
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/3snjsl",
+    "index": 16,
+    "title": "Output: Academic Chat",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Output: Academic Chat",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "position": {
+          "left": 65,
+          "top": 154,
+          "width": 798,
+          "height": 470
+        }
+      },
+      {
+        "text": "Question",
+        "position": {
+          "left": 944,
+          "top": 163,
+          "width": 270,
+          "height": 38
+        }
+      },
+      {
+        "text": "The student asks for Operating Systems credits in CSE.",
+        "position": {
+          "left": 944,
+          "top": 207,
+          "width": 270,
+          "height": 110
+        }
+      },
+      {
+        "text": "Returned output",
+        "position": {
+          "left": 944,
+          "top": 338,
+          "width": 270,
+          "height": 38
+        }
+      },
+      {
+        "text": "Course details, a document ID, and a page reference accompany the answer.",
+        "position": {
+          "left": 944,
+          "top": 382,
+          "width": 270,
+          "height": 155
+        }
+      },
+      {
+        "text": "Recorded application demo. The source reference supports inspection of the returned academic details.",
+        "position": {
+          "left": 74,
+          "top": 646,
+          "width": 1132,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/9z4t6a",
+    "index": 17,
+    "title": "Output: Source Inspection",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Output: Source Inspection",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Original curriculum page: Semester III",
+        "position": {
+          "left": 74,
+          "top": 155,
+          "width": 720,
+          "height": 40
+        }
+      },
+      {
+        "position": {
+          "left": 74,
+          "top": 215,
+          "width": 720,
+          "height": 380
+        }
+      },
+      {
+        "text": "Visible source context",
+        "position": {
+          "left": 840,
+          "top": 167,
+          "width": 365,
+          "height": 38
+        }
+      },
+      {
+        "text": "The linked document opens at page 29. This enlarged excerpt shows its Semester III course table.",
+        "position": {
+          "left": 840,
+          "top": 217,
+          "width": 365,
+          "height": 120
+        }
+      },
+      {
+        "text": "Verification workflow",
+        "position": {
+          "left": 840,
+          "top": 365,
+          "width": 365,
+          "height": 38
+        }
+      },
+      {
+        "text": "A student can inspect the curriculum table and compare the cited course record with the answer.",
+        "position": {
+          "left": 840,
+          "top": 416,
+          "width": 365,
+          "height": 148
+        }
+      },
+      {
+        "text": "Recorded application demo. Page references make source checking possible; users should verify disputed details.",
+        "position": {
+          "left": 74,
+          "top": 646,
+          "width": 1132,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/kenle9",
+    "index": 18,
+    "title": "Results: Overall Performance",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Results: Overall Performance",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "1,201 labeled queries    30 intents    960 train / 241 test",
+        "position": {
+          "left": 74,
+          "top": 144,
+          "width": 1132,
+          "height": 44
+        }
+      },
+      {
+        "text": "Metric\tRecorded result\tMeaning\nTop-1 accuracy\t96.27%\t232 of 241 test queries classified correctly\nTop-3 accuracy\t99.17%\tCorrect intent among the top three for 239 queries\nMacro F1\t0.9196\tEach intent receives equal weight\nWeighted F1\t0.9614\tEach intent contributes according to test support\nFive-fold CV accuracy\t96.00% ± 1.17 pp\tMean accuracy and standard deviation across folds",
+        "position": {
+          "left": 74,
+          "top": 209,
+          "width": 1132,
+          "height": 356
+        }
+      },
+      {
+        "text": "Saved evaluation from 22 October 2026. Scores describe intent classification on the project dataset.",
+        "position": {
+          "left": 74,
+          "top": 646,
+          "width": 1132,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/bras9n",
+    "index": 19,
+    "title": "Results: Performance by Intent",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Results: Performance by Intent",
+        "position": {
+          "left": 230,
+          "top": 36,
+          "width": 990,
+          "height": 84
+        }
+      },
+      {
+        "text": "Selected intent\tTest queries\tF1 score\tInterpretation\nUnit syllabus\t46\t1.0000\tLargest test class\nSemester subjects\t39\t1.0000\tStrong on this test set\nFull syllabus\t15\t0.9677\tHigh precision and recall\nCourse credits\t13\t0.9600\tSome missed credit queries\nAdmission information\t4\t0.5714\tNeeds more varied examples\nInstitutional leadership\t2\t0.6667\tVery small test support\nOut-of-scope\t3\t0.4000\tPriority for improvement",
+        "position": {
+          "left": 74,
+          "top": 154,
+          "width": 1132,
+          "height": 424
+        }
+      },
+      {
+        "text": "Small class sizes limit confidence. A separate student-query test set is needed to assess real-world performance.",
+        "position": {
+          "left": 74,
+          "top": 646,
+          "width": 1132,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jetc3ut0",
+    "index": 20,
+    "title": "Conclusion and Future Scope",
+    "elements": [
+      {
+        "position": {
+          "left": 65.5,
+          "top": 186.18,
+          "width": 1123.01,
+          "height": 173.82
+        }
+      },
+      {
+        "position": {
+          "left": 83.15,
+          "top": 303.99,
+          "width": 1087.52,
+          "height": 274.7
+        }
+      },
+      {
+        "text": "Conclusion and Future Scope",
+        "position": {
+          "left": 63.99,
+          "top": 28.65,
+          "width": 1152,
+          "height": 120.19
+        }
+      },
+      {
+        "text": "Conclusion\nCampusAI integrates NLP query understanding, structured academic lookup, and hybrid evidence retrieval for eight departments. The latest intent classifier reaches 96.27% accuracy on the held-out project test set.\nCurrent Limitations\nCoverage centres on Curriculum 2024, Version 3.0. The test set is small for some intents, and out-of-scope detection has an F1 score of 0.40. Retrieval relevance and answer correctness need independent evaluation.\nFuture Scope\nCollect student queries across languages, strengthen low-performing intents, and evaluate retrieval against human relevance labels. Expand verified curriculum coverage and connect approved live academic notices.",
+        "position": {
+          "left": 66.33,
+          "top": 132.17,
+          "width": 1152,
+          "height": 523.84
+        }
+      }
+    ]
+  }
+]

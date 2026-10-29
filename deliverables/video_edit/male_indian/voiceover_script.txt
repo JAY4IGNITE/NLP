@@ -1,0 +1,39 @@
+LOAN DEFAULT RISK — VOICEOVER
+
+Voice: Microsoft Ravi - English (India) (locally generated synthetic speech).
+
+00:00:00,000 — Overview
+Hi, let's take a quick look at this loan risk dashboard. We can enter a person's details, check their risk score, and understand how the model arrived at the result.
+
+00:00:12,600 — Portfolio analytics
+First, this page gives us an overview of the applicants. We can see repayment results and compare groups by income, education, and other details.
+
+00:00:24,333 — Financial details
+Now, let's enter the yearly income and the loan amount. We can also add other loan details and the goods price, if that information is available.
+
+00:00:35,333 — Applicant profile
+Next, we fill in the age, work experience, family details, and housing information. Once these basic details are ready, we can move to the risk check.
+
+00:00:48,267 — Run the assessment
+If we have external credit scores, we can enter them here. Otherwise, we can leave these fields blank and click Assess risk.
+
+00:00:58,300 — Prediction result
+Here, the estimated chance of default is seven point six percent. The risk score is eight out of one hundred, which falls in the low risk group.
+
+00:01:09,467 — Interpret the result
+This is only an estimate. It does not guarantee what will happen. A person still needs to review the result before making a lending decision.
+
+00:01:20,033 — Explain the prediction
+Now, let's see what is behind the prediction. This page shows the main factors used by the model, along with a breakdown for this applicant.
+
+00:01:30,700 — Compare models
+Here, we compare different models using cross validation. XGBoost is selected, and we can check the comparison and tuning details on this page.
+
+00:01:42,100 — Check performance
+Next, we check the model's test results and performance charts. These help us see how well the model works and how its scores behave.
+
+00:01:52,700 — Methodology and reference
+The methodology page explains the formulas used in the dashboard. The feature reference tells us what each input means and how missing details are handled.
+
+00:02:03,767 — Model information
+Finally, we can check the model version and training details. So, we can go from applicant details to a risk estimate, and review the information behind it.

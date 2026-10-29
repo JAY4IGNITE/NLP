@@ -1,0 +1,722 @@
+{
+  "checks": [
+    {
+      "name": "Landing form sends exactly one question and opens usable chat",
+      "passed": true
+    },
+    {
+      "name": "Landing links, browser history and direct routes",
+      "passed": true
+    },
+    {
+      "name": "Catalog search, empty state and course details",
+      "passed": true
+    },
+    {
+      "name": "Semester selection and comparison controls",
+      "passed": true
+    },
+    {
+      "name": "Admin sign-in opens and returns keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "dark home fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "dark chat fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "dark explore fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "dark semesters fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "dark compare fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "dark home fits 900px",
+      "passed": true
+    },
+    {
+      "name": "dark chat fits 900px",
+      "passed": true
+    },
+    {
+      "name": "dark explore fits 900px",
+      "passed": true
+    },
+    {
+      "name": "dark semesters fits 900px",
+      "passed": true
+    },
+    {
+      "name": "dark compare fits 900px",
+      "passed": true
+    },
+    {
+      "name": "dark home fits 768px",
+      "passed": true
+    },
+    {
+      "name": "dark chat fits 768px",
+      "passed": true
+    },
+    {
+      "name": "dark explore fits 768px",
+      "passed": true
+    },
+    {
+      "name": "dark semesters fits 768px",
+      "passed": true
+    },
+    {
+      "name": "dark compare fits 768px",
+      "passed": true
+    },
+    {
+      "name": "dark home fits 390px",
+      "passed": true
+    },
+    {
+      "name": "dark chat fits 390px",
+      "passed": true
+    },
+    {
+      "name": "dark explore fits 390px",
+      "passed": true
+    },
+    {
+      "name": "dark semesters fits 390px",
+      "passed": true
+    },
+    {
+      "name": "dark compare fits 390px",
+      "passed": true
+    },
+    {
+      "name": "dark home fits 320px",
+      "passed": true
+    },
+    {
+      "name": "dark chat fits 320px",
+      "passed": true
+    },
+    {
+      "name": "dark explore fits 320px",
+      "passed": true
+    },
+    {
+      "name": "dark semesters fits 320px",
+      "passed": true
+    },
+    {
+      "name": "dark compare fits 320px",
+      "passed": true
+    },
+    {
+      "name": "light home fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "light chat fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "light explore fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "light semesters fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "light compare fits 1440px",
+      "passed": true
+    },
+    {
+      "name": "light home fits 900px",
+      "passed": true
+    },
+    {
+      "name": "light chat fits 900px",
+      "passed": true
+    },
+    {
+      "name": "light explore fits 900px",
+      "passed": true
+    },
+    {
+      "name": "light semesters fits 900px",
+      "passed": true
+    },
+    {
+      "name": "light compare fits 900px",
+      "passed": true
+    },
+    {
+      "name": "light home fits 768px",
+      "passed": true
+    },
+    {
+      "name": "light chat fits 768px",
+      "passed": true
+    },
+    {
+      "name": "light explore fits 768px",
+      "passed": true
+    },
+    {
+      "name": "light semesters fits 768px",
+      "passed": true
+    },
+    {
+      "name": "light compare fits 768px",
+      "passed": true
+    },
+    {
+      "name": "light home fits 390px",
+      "passed": true
+    },
+    {
+      "name": "light chat fits 390px",
+      "passed": true
+    },
+    {
+      "name": "light explore fits 390px",
+      "passed": true
+    },
+    {
+      "name": "light semesters fits 390px",
+      "passed": true
+    },
+    {
+      "name": "light compare fits 390px",
+      "passed": true
+    },
+    {
+      "name": "light home fits 320px",
+      "passed": true
+    },
+    {
+      "name": "light chat fits 320px",
+      "passed": true
+    },
+    {
+      "name": "light explore fits 320px",
+      "passed": true
+    },
+    {
+      "name": "light semesters fits 320px",
+      "passed": true
+    },
+    {
+      "name": "light compare fits 320px",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation exposes all destinations and closes after selection",
+      "passed": true
+    }
+  ],
+  "layouts": [
+    {
+      "theme": "dark",
+      "tab": "home",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "dark",
+      "tab": "chat",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "input": {
+        "x": 359,
+        "y": 474.484375,
+        "width": 722,
+        "height": 52,
+        "top": 474.484375,
+        "right": 1081,
+        "bottom": 526.484375,
+        "left": 359
+      }
+    },
+    {
+      "theme": "dark",
+      "tab": "explore",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "dark",
+      "tab": "semesters",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "dark",
+      "tab": "compare",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "dark",
+      "tab": "home",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "dark",
+      "tab": "chat",
+      "width": 900,
+      "scrollWidth": 900,
+      "input": {
+        "x": 89,
+        "y": 441.984375,
+        "width": 722,
+        "height": 52,
+        "top": 441.984375,
+        "right": 811,
+        "bottom": 493.984375,
+        "left": 89
+      }
+    },
+    {
+      "theme": "dark",
+      "tab": "explore",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "dark",
+      "tab": "semesters",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "dark",
+      "tab": "compare",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "dark",
+      "tab": "home",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "dark",
+      "tab": "chat",
+      "width": 768,
+      "scrollWidth": 768,
+      "input": {
+        "x": 43,
+        "y": 388.984375,
+        "width": 682,
+        "height": 52,
+        "top": 388.984375,
+        "right": 725,
+        "bottom": 440.984375,
+        "left": 43
+      }
+    },
+    {
+      "theme": "dark",
+      "tab": "explore",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "dark",
+      "tab": "semesters",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "dark",
+      "tab": "compare",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "dark",
+      "tab": "home",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "dark",
+      "tab": "chat",
+      "width": 390,
+      "scrollWidth": 390,
+      "input": {
+        "x": 31,
+        "y": 409.96875,
+        "width": 328,
+        "height": 48,
+        "top": 409.96875,
+        "right": 359,
+        "bottom": 457.96875,
+        "left": 31
+      }
+    },
+    {
+      "theme": "dark",
+      "tab": "explore",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "dark",
+      "tab": "semesters",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "dark",
+      "tab": "compare",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "dark",
+      "tab": "home",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "dark",
+      "tab": "chat",
+      "width": 320,
+      "scrollWidth": 320,
+      "input": {
+        "x": 31,
+        "y": 414.96875,
+        "width": 258,
+        "height": 48,
+        "top": 414.96875,
+        "right": 289,
+        "bottom": 462.96875,
+        "left": 31
+      }
+    },
+    {
+      "theme": "dark",
+      "tab": "explore",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "dark",
+      "tab": "semesters",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "dark",
+      "tab": "compare",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "light",
+      "tab": "home",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "light",
+      "tab": "chat",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "input": {
+        "x": 359,
+        "y": 474.484375,
+        "width": 722,
+        "height": 52,
+        "top": 474.484375,
+        "right": 1081,
+        "bottom": 526.484375,
+        "left": 359
+      }
+    },
+    {
+      "theme": "light",
+      "tab": "explore",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "light",
+      "tab": "semesters",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "light",
+      "tab": "compare",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "theme": "light",
+      "tab": "home",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "light",
+      "tab": "chat",
+      "width": 900,
+      "scrollWidth": 900,
+      "input": {
+        "x": 89,
+        "y": 436.984375,
+        "width": 722,
+        "height": 52,
+        "top": 436.984375,
+        "right": 811,
+        "bottom": 488.984375,
+        "left": 89
+      }
+    },
+    {
+      "theme": "light",
+      "tab": "explore",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "light",
+      "tab": "semesters",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "light",
+      "tab": "compare",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "theme": "light",
+      "tab": "home",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "light",
+      "tab": "chat",
+      "width": 768,
+      "scrollWidth": 768,
+      "input": {
+        "x": 43,
+        "y": 393.984375,
+        "width": 682,
+        "height": 52,
+        "top": 393.984375,
+        "right": 725,
+        "bottom": 445.984375,
+        "left": 43
+      }
+    },
+    {
+      "theme": "light",
+      "tab": "explore",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "light",
+      "tab": "semesters",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "light",
+      "tab": "compare",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "theme": "light",
+      "tab": "home",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "light",
+      "tab": "chat",
+      "width": 390,
+      "scrollWidth": 390,
+      "input": {
+        "x": 31,
+        "y": 414.96875,
+        "width": 328,
+        "height": 48,
+        "top": 414.96875,
+        "right": 359,
+        "bottom": 462.96875,
+        "left": 31
+      }
+    },
+    {
+      "theme": "light",
+      "tab": "explore",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "light",
+      "tab": "semesters",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "light",
+      "tab": "compare",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "theme": "light",
+      "tab": "home",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "light",
+      "tab": "chat",
+      "width": 320,
+      "scrollWidth": 320,
+      "input": {
+        "x": 31,
+        "y": 414.96875,
+        "width": 258,
+        "height": 48,
+        "top": 414.96875,
+        "right": 289,
+        "bottom": 462.96875,
+        "left": 31
+      }
+    },
+    {
+      "theme": "light",
+      "tab": "explore",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "light",
+      "tab": "semesters",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "theme": "light",
+      "tab": "compare",
+      "width": 320,
+      "scrollWidth": 320
+    }
+  ],
+  "accessibility": [
+    {
+      "name": "course-dialog-dark",
+      "violations": []
+    },
+    {
+      "name": "login-dialog-dark",
+      "violations": []
+    },
+    {
+      "name": "home-dark-1440",
+      "violations": []
+    },
+    {
+      "name": "chat-dark-1440",
+      "violations": []
+    },
+    {
+      "name": "explore-dark-1440",
+      "violations": []
+    },
+    {
+      "name": "semesters-dark-1440",
+      "violations": []
+    },
+    {
+      "name": "compare-dark-1440",
+      "violations": []
+    },
+    {
+      "name": "home-dark-390",
+      "violations": []
+    },
+    {
+      "name": "chat-dark-390",
+      "violations": []
+    },
+    {
+      "name": "explore-dark-390",
+      "violations": []
+    },
+    {
+      "name": "semesters-dark-390",
+      "violations": []
+    },
+    {
+      "name": "compare-dark-390",
+      "violations": []
+    },
+    {
+      "name": "home-light-1440",
+      "violations": []
+    },
+    {
+      "name": "chat-light-1440",
+      "violations": []
+    },
+    {
+      "name": "explore-light-1440",
+      "violations": []
+    },
+    {
+      "name": "semesters-light-1440",
+      "violations": []
+    },
+    {
+      "name": "compare-light-1440",
+      "violations": []
+    },
+    {
+      "name": "home-light-390",
+      "violations": []
+    },
+    {
+      "name": "chat-light-390",
+      "violations": []
+    },
+    {
+      "name": "explore-light-390",
+      "violations": []
+    },
+    {
+      "name": "semesters-light-390",
+      "violations": []
+    },
+    {
+      "name": "compare-light-390",
+      "violations": []
+    }
+  ],
+  "runtimeErrors": [],
+  "apiMode": "Deterministic fixtures; no backend writes"
+}

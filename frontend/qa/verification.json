@@ -1,0 +1,585 @@
+{
+  "checks": [
+    {
+      "name": "Chat welcome, fonts, real catalog connectivity",
+      "passed": true
+    },
+    {
+      "name": "Chat submission, department and language payload, feedback, retained conversation",
+      "passed": true
+    },
+    {
+      "name": "Citation opens original document, view modes, Escape focus return",
+      "passed": true
+    },
+    {
+      "name": "Clear conversation and return to welcome",
+      "passed": true
+    },
+    {
+      "name": "Catalog loads real courses and filters title, code, department, category",
+      "passed": true
+    },
+    {
+      "name": "Course modal tabs and nested original source dialog",
+      "passed": true
+    },
+    {
+      "name": "Semester switching and real curriculum table",
+      "passed": true
+    },
+    {
+      "name": "Compare departments, exact-code shared/unique sets and credit difference",
+      "passed": true
+    },
+    {
+      "name": "Login dialog focus, password visibility, real authentication",
+      "passed": true
+    },
+    {
+      "name": "Admin real registry, issues and evaluation data",
+      "passed": true
+    },
+    {
+      "name": "Chat layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "Explore layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "Semesters layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "Compare layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "Admin layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "Chat layout 768x1024",
+      "passed": true
+    },
+    {
+      "name": "Explore layout 768x1024",
+      "passed": true
+    },
+    {
+      "name": "Semesters layout 768x1024",
+      "passed": true
+    },
+    {
+      "name": "Compare layout 768x1024",
+      "passed": true
+    },
+    {
+      "name": "Admin layout 768x1024",
+      "passed": true
+    },
+    {
+      "name": "Chat layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "Explore layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "Semesters layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "Compare layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "Admin layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "Chat layout 320x740",
+      "passed": true
+    },
+    {
+      "name": "Explore layout 320x740",
+      "passed": true
+    },
+    {
+      "name": "Semesters layout 320x740",
+      "passed": true
+    },
+    {
+      "name": "Compare layout 320x740",
+      "passed": true
+    },
+    {
+      "name": "Admin layout 320x740",
+      "passed": true
+    },
+    {
+      "name": "Mobile course dialog, nested source, keyboard containment",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion and mobile sign out/login",
+      "passed": true
+    },
+    {
+      "name": "Catalog empty and offline states",
+      "passed": true
+    },
+    {
+      "name": "Source image failure and successful retry",
+      "passed": true
+    },
+    {
+      "name": "Course fetch error is visible and dismissible",
+      "passed": true
+    },
+    {
+      "name": "Login invalid credentials show an inline error",
+      "passed": true
+    },
+    {
+      "name": "Dock spring magnification, keyboard traversal and reduced motion",
+      "passed": true
+    }
+  ],
+  "runtimeErrors": [],
+  "accessibility": [
+    {
+      "name": "chat-desktop",
+      "violations": []
+    },
+    {
+      "name": "source-desktop",
+      "violations": []
+    },
+    {
+      "name": "explore-desktop",
+      "violations": []
+    },
+    {
+      "name": "course-desktop",
+      "violations": []
+    },
+    {
+      "name": "semesters-desktop",
+      "violations": []
+    },
+    {
+      "name": "compare-desktop",
+      "violations": []
+    },
+    {
+      "name": "login-desktop",
+      "violations": []
+    },
+    {
+      "name": "admin-documents-desktop",
+      "violations": []
+    },
+    {
+      "name": "admin-issues-desktop",
+      "violations": []
+    },
+    {
+      "name": "admin-metrics-desktop",
+      "violations": []
+    },
+    {
+      "name": "Chat-mobile",
+      "violations": []
+    },
+    {
+      "name": "Explore-mobile",
+      "violations": []
+    },
+    {
+      "name": "Semesters-mobile",
+      "violations": []
+    },
+    {
+      "name": "Compare-mobile",
+      "violations": []
+    },
+    {
+      "name": "Admin-mobile",
+      "violations": []
+    }
+  ],
+  "layouts": [
+    {
+      "name": "chat-desktop",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "composer": {
+        "x": 488,
+        "y": 544.203125,
+        "width": 720,
+        "height": 121,
+        "top": 544.203125,
+        "right": 1208,
+        "bottom": 665.203125,
+        "left": 488
+      },
+      "dock": {
+        "x": 543,
+        "y": 900,
+        "width": 354,
+        "height": 80,
+        "top": 900,
+        "right": 897,
+        "bottom": 980,
+        "left": 543
+      }
+    },
+    {
+      "name": "Chat-1280",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "composer": {
+        "x": 408,
+        "y": 422.96875,
+        "width": 720,
+        "height": 121,
+        "top": 422.96875,
+        "right": 1128,
+        "bottom": 543.96875,
+        "left": 408
+      },
+      "dock": {
+        "x": 421,
+        "y": 700,
+        "width": 438,
+        "height": 80,
+        "top": 700,
+        "right": 859,
+        "bottom": 780,
+        "left": 421
+      }
+    },
+    {
+      "name": "Explore-1280",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "dock": {
+        "x": 421,
+        "y": 700,
+        "width": 438,
+        "height": 80,
+        "top": 700,
+        "right": 859,
+        "bottom": 780,
+        "left": 421
+      }
+    },
+    {
+      "name": "Semesters-1280",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "dock": {
+        "x": 421,
+        "y": 700,
+        "width": 438,
+        "height": 80,
+        "top": 700,
+        "right": 859,
+        "bottom": 780,
+        "left": 421
+      }
+    },
+    {
+      "name": "Compare-1280",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "dock": {
+        "x": 421,
+        "y": 700,
+        "width": 438,
+        "height": 80,
+        "top": 700,
+        "right": 859,
+        "bottom": 780,
+        "left": 421
+      }
+    },
+    {
+      "name": "Admin-1280",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "dock": {
+        "x": 421,
+        "y": 700,
+        "width": 438,
+        "height": 80,
+        "top": 700,
+        "right": 859,
+        "bottom": 780,
+        "left": 421
+      }
+    },
+    {
+      "name": "Chat-768",
+      "width": 768,
+      "scrollWidth": 768,
+      "composer": {
+        "x": 246,
+        "y": 541.0625,
+        "width": 482,
+        "height": 121,
+        "top": 541.0625,
+        "right": 728,
+        "bottom": 662.0625,
+        "left": 246
+      },
+      "dock": {
+        "x": 165,
+        "y": 924,
+        "width": 438,
+        "height": 80,
+        "top": 924,
+        "right": 603,
+        "bottom": 1004,
+        "left": 165
+      }
+    },
+    {
+      "name": "Explore-768",
+      "width": 768,
+      "scrollWidth": 768,
+      "dock": {
+        "x": 165,
+        "y": 924,
+        "width": 438,
+        "height": 80,
+        "top": 924,
+        "right": 603,
+        "bottom": 1004,
+        "left": 165
+      }
+    },
+    {
+      "name": "Semesters-768",
+      "width": 768,
+      "scrollWidth": 768,
+      "dock": {
+        "x": 165,
+        "y": 924,
+        "width": 438,
+        "height": 80,
+        "top": 924,
+        "right": 603,
+        "bottom": 1004,
+        "left": 165
+      }
+    },
+    {
+      "name": "Compare-768",
+      "width": 768,
+      "scrollWidth": 768,
+      "dock": {
+        "x": 165,
+        "y": 924,
+        "width": 438,
+        "height": 80,
+        "top": 924,
+        "right": 603,
+        "bottom": 1004,
+        "left": 165
+      }
+    },
+    {
+      "name": "Admin-768",
+      "width": 768,
+      "scrollWidth": 768,
+      "dock": {
+        "x": 165,
+        "y": 924,
+        "width": 438,
+        "height": 80,
+        "top": 924,
+        "right": 603,
+        "bottom": 1004,
+        "left": 165
+      }
+    },
+    {
+      "name": "Chat-390",
+      "width": 390,
+      "scrollWidth": 390,
+      "composer": {
+        "x": 20,
+        "y": 491.578125,
+        "width": 350,
+        "height": 113,
+        "top": 491.578125,
+        "right": 370,
+        "bottom": 604.578125,
+        "left": 20
+      },
+      "dock": {
+        "x": 12,
+        "y": 766,
+        "width": 366,
+        "height": 68,
+        "top": 766,
+        "right": 378,
+        "bottom": 834,
+        "left": 12
+      }
+    },
+    {
+      "name": "Explore-390",
+      "width": 390,
+      "scrollWidth": 390,
+      "dock": {
+        "x": 12,
+        "y": 766,
+        "width": 366,
+        "height": 68,
+        "top": 766,
+        "right": 378,
+        "bottom": 834,
+        "left": 12
+      }
+    },
+    {
+      "name": "Semesters-390",
+      "width": 390,
+      "scrollWidth": 390,
+      "dock": {
+        "x": 12,
+        "y": 766,
+        "width": 366,
+        "height": 68,
+        "top": 766,
+        "right": 378,
+        "bottom": 834,
+        "left": 12
+      }
+    },
+    {
+      "name": "Compare-390",
+      "width": 390,
+      "scrollWidth": 390,
+      "dock": {
+        "x": 12,
+        "y": 766,
+        "width": 366,
+        "height": 68,
+        "top": 766,
+        "right": 378,
+        "bottom": 834,
+        "left": 12
+      }
+    },
+    {
+      "name": "Admin-390",
+      "width": 390,
+      "scrollWidth": 390,
+      "dock": {
+        "x": 12,
+        "y": 766,
+        "width": 366,
+        "height": 68,
+        "top": 766,
+        "right": 378,
+        "bottom": 834,
+        "left": 12
+      }
+    },
+    {
+      "name": "Chat-320",
+      "width": 320,
+      "scrollWidth": 320,
+      "composer": {
+        "x": 20,
+        "y": 446.890625,
+        "width": 280,
+        "height": 128.59375,
+        "top": 446.890625,
+        "right": 300,
+        "bottom": 575.484375,
+        "left": 20
+      },
+      "dock": {
+        "x": 12,
+        "y": 662,
+        "width": 296,
+        "height": 68,
+        "top": 662,
+        "right": 308,
+        "bottom": 730,
+        "left": 12
+      }
+    },
+    {
+      "name": "Explore-320",
+      "width": 320,
+      "scrollWidth": 320,
+      "dock": {
+        "x": 12,
+        "y": 662,
+        "width": 296,
+        "height": 68,
+        "top": 662,
+        "right": 308,
+        "bottom": 730,
+        "left": 12
+      }
+    },
+    {
+      "name": "Semesters-320",
+      "width": 320,
+      "scrollWidth": 320,
+      "dock": {
+        "x": 12,
+        "y": 662,
+        "width": 296,
+        "height": 68,
+        "top": 662,
+        "right": 308,
+        "bottom": 730,
+        "left": 12
+      }
+    },
+    {
+      "name": "Compare-320",
+      "width": 320,
+      "scrollWidth": 320,
+      "dock": {
+        "x": 12,
+        "y": 662,
+        "width": 296,
+        "height": 68,
+        "top": 662,
+        "right": 308,
+        "bottom": 730,
+        "left": 12
+      }
+    },
+    {
+      "name": "Admin-320",
+      "width": 320,
+      "scrollWidth": 320,
+      "dock": {
+        "x": 12,
+        "y": 662,
+        "width": 296,
+        "height": 68,
+        "top": 662,
+        "right": 308,
+        "bottom": 730,
+        "left": 12
+      }
+    }
+  ],
+  "limitations": [
+    "No resolution control was available. Live issue records use pending_review while the existing UI checks pending. Issue mutations were not exercised; the existing access_token versus user.token mismatch also remains."
+  ]
+}

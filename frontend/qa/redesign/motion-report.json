@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "Glass reflection follows the pointer and settles after leaving",
+      "passed": true
+    },
+    {
+      "name": "Dock magnifies on hover and reveals label",
+      "passed": true,
+      "before": 46,
+      "enlarged": 56.56451416015625
+    },
+    {
+      "name": "Dock pointer and keyboard shortcut menus, Escape focus restoration",
+      "passed": true
+    },
+    {
+      "name": "Dock click provides spring bounce feedback",
+      "passed": true
+    },
+    {
+      "name": "Scroll reveals make lower sections visible",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion preference removes entrances; decorative loops are absent",
+      "passed": true
+    },
+    {
+      "name": "Compact request status and honest service metadata",
+      "passed": true
+    },
+    {
+      "name": "Composer remains usable after the first answer",
+      "passed": true
+    },
+    {
+      "name": "Reduced-transparency fallback is opaque in both themes",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
