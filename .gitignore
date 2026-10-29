@@ -9,12 +9,13 @@ venv/
 ENV/
 build/
 dist/
+!frontend/dist/
+!frontend/dist/**
 *.egg-info/
 .pytest_cache/
 .coverage
 htmlcov/
 node_modules/
-frontend/dist/
 frontend/.vite/
 *.log
 data/indices/
